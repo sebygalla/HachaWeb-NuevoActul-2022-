@@ -1,0 +1,2821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- estilos css-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- titulo pestaña del documento-->
+    <title>Hachalahilacha</title>
+
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header class="hero_container">
+
+        <!--Barra de navegacion-->
+
+        <nav class="nav" id="navegacion">
+
+
+
+            <!--Logo-->
+            <div class="nav-logo" id="nav-img">
+                <img src="img/LOGO 5.png" >
+            </div>
+
+            <!-- Lista-->
+
+            <div class="lista-enlaces" id="barra">
+                <a href="#" class="lista-enlaces-item ">INICIO</a>
+                <a href="#" class="lista-enlaces-item ">NOSOTROS</a>
+                <a href="#" class="lista-enlaces-item ">GALERIA</a>
+                <a href="#" class="lista-enlaces-item ">DISCOS</a>
+                <a href="#" class="lista-enlaces-item ">VIDEOS</a>
+                <a href="#footer" class="lista-enlaces-item ">CONTACTO</a>
+
+
+                <div class="nav-redes_show">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                </div>
+
+
+                
+            </div>
+
+            <!--Redes sociales-->
+            <div class="nav-redes" id="nav-redes">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-spotify"></i></a>
+            </div>
+
+            <!--Menu hamburguesa-->
+
+            <button id="hamb" class="toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+
+
+
+
+        </nav>
+
+
+        <section class="hero-main" id="hero-main">
+
+            <div class="textos-hero">
+                <h1>
+                    El ROCK NUNCA </br> MURIO!
+                </h1>
+                <h3>Siempre estuvo muerto...</h3>
+
+
+
+                <a href="https://open.spotify.com/track/4E3tgZZWVlSdDlf24QCdri?si=2c129efc968b4319"
+                    class="cta cta-red">Escucha!
+                </a>
+
+            </div>
+
+            <figure class="img-hero">
+                <img src="img/galeria de imagenes/portada.png" class="img">
+            </figure>
+
+
+
+
+        </section>
+
+        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-11.57,102.13 C124.43,193.91 275.11,7.41 502.54,115.95 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffff;"></path>
+            </svg></div>
+
+
+
+
+    </header>
+
+
+    <!--Fin header-->
+
+
+
+    <!--Nosotros-->
+    <div class="container-nosotros" id="nosotros">
+
+        <div class="nosotros-description">
+            <h1>NOSOTROS</h1>
+            <h2><strong>HISTORIA</strong> &nbsp Reseña de la banda &nbsp <i class="fab fa-spotify"></i> </h2>
+
+            <picture class="imagen-banda">
+                <img src="img/portada nueva 2.jpg" alt="">
+            </picture>
+            <p> Hachalahilacha nace el 29 de junio 2002 en una desaparecida sala de Canning luego 1 meses mas tarde el 9
+                de agosto debutan en “Anónimos” una pizzería del centro de Ezeiza, estrenando 3 temas propios. Para el
+                21 de diciembre ya cuentan con su primer“Fuckingdemo!!!” Al año siguiente para el 21 de diciembre de
+                2003 sale “Fuckingdemo!!!2” El 26 de Noviembre de 2006 entran a grabar las baterías en E.C.C.O.S; en una
+                jornada de 10 horas donde graban 3 tomas de cada tema a tan solo 310$. Las grabaciones continúan de la
+                mano de Dson y Sebas en Freemid studios. En Marzo de 2009 asociados con la U.M.I comienzan los trámites
+                pertinentes para la edición de forma independiente ante la negativa de las compañías discográfica. El 10
+                febrero de 2010 sale a la calle su primer disco Homonimo.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis placeat reprehenderit nulla a et
+                obcaecati commodi beatae vero architecto quia ut explicabo voluptas recusandae iste, eius, earum, amet
+                unde atque cumque dignissimos? Facere veritatis blanditiis dolores quis vel aut, velit est voluptatem
+                nam perspiciatis quo, officiis labore doloremque! Sed nobis ab neque ex mollitia aut placeat est sit
+                laudantium maxime, earum qui eligendi ratione quam impedit exercitationem, itaque ipsam! Eaque, tempora
+                facilis? Est corrupti, dolorum dignissimos illum rerum aliquid recusandae?
+            </p>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <!--Cardss (PERSONAJES DE DSON SEB Y MATT)-->
+
+
+    <div class="container_cards">
+
+        <div class="card">
+            <div class="cover">
+                <img src="img/galeria de imagenes/MATT.png" alt="">
+                <div class="img__back">
+                </div>
+            </div>
+            <div class="description">
+                <h2>Matias Herrera</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, consequatur!</p>
+                <input type="button" value="VER MAS!">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="cover">
+                <img src="img/galeria de imagenes/DSON.png" alt="">
+                <div class="img__back">
+                </div>
+            </div>
+            <div class="description">
+                <h2>David Orons</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos?</p>
+                <input type="button" value="VER MAS!">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="cover">
+                <img src="img/galeria de imagenes/SEB.png" alt="">
+                <div class="img__back">
+                </div>
+            </div>
+            <div class="description">
+                <h2>Sebastian Gallardo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, consequatur!</p>
+                <input type="button" value="VER MAS!">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Boton arriba-->
+
+    <button class="btn-arriba btn-arriba-on" id="btn_arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+    <!-- Prueba de Nosotros-->
+
+    <section class="hero-main_nosotros">
+
+        <div class="textos-hero_nosotros">
+
+            <h1 id="banner">NOSOTROS</h1>
+            <h2><strong>HISTORIA</strong> &nbsp Reseña de la banda &nbsp <i class="fab fa-spotify"></i> </h2>
+
+            <p>Hachalahilachas es un grupo oriundo de zona sur del Gran Buenos Aires. Nacida el 29 de junio de 2002 en
+                una sala de ensayos de los suburbios de Ezeiza. Cuentan en su haber con 2 álbumes de estudio editados y
+                varios singles. "Hachalahilacha" de 2010 "Consume" de 2016 Y Singles 2020/2021 Material que esta
+                disponible en todas las plataformas digitales. Entre sus influencias podemos encontrar una variada gama
+                musical que va desde el hardcore; punk; grunge pop; rock; postpunk etc. Este Power trio esta compuesto
+                por Matías Herrera: Bateria Sebastian Gallardo: Bajo David Orons: Guitarra y voz.
+            </p>
+        </div>
+
+
+
+        <div class="img-hero_nosotros">
+            <div class="img_nosotros">
+
+            </div>
+        </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!--Fin prueba Nosotros-->
+
+
+    <!--Disco-->
+
+
+    <section class="container-nosotros-disco">
+
+        <div class="nosotros-description-disco">
+            <h1>DISCOS</h1>
+            <h2><strong>DISCOGRAFIA</strong> &nbsp Discos oficiales de la banda &nbsp <i
+                    class="fas fa-compact-disc"></i></h2>
+
+        </div>
+    </section>
+
+
+    <!-- Discos -->
+
+    <section class="card--discos">
+
+        <!--Disco 1-->
+
+        <div class="card--perfil">
+            <div class="card--nombre">
+                <img src="img/DISCO HACHA.jpg" alt="">
+                <h2>HACHALAHILACHA!!!</h2>
+
+            </div>
+
+            <div class="card--info">
+                <p>Seleccion de canciones del album debut, cortito y al pie</p>
+            </div>
+
+            <div class="card--enlace">
+                <a href="#">APLICA!</a>
+
+            </div>
+        </div>
+
+        <!--Disco 2-->
+
+        <div class="card--perfil">
+            <div class="card--nombre">
+                <img src="img/DISCO HACHA ESPECIAL SONGS.jpg" alt="">
+                <h2>ESPECIAL SONGS</h2>
+
+            </div>
+
+
+            <div class="card--info">
+                <p>Lados b y canciones del album debut para seguir moviendo la cabeza </p>
+            </div>
+
+            <div class="card--enlace">
+                <a href="#">APLICA!</a>
+
+            </div>
+        </div>
+
+        <!--Disco 3-->
+
+        <div class="card--perfil">
+            <div class="card--nombre">
+                <img src="img/DISCO CONSUME.jpg" alt="">
+                <h2>HACHALAHILACHA!!!</h2>
+
+            </div>
+
+
+            <div class="card--info">
+                <p>Segundo disco de estudio, se escucha a un volumen brutal.</p>
+            </div>
+
+            <div class="card--enlace">
+                <a href="#">APLICA!</a>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Galeria -->
+
+
+    <section class="container-nosotros-galeria">
+
+        <h1>Galeria</h1>
+        <h2><strong>Imagenes</strong> &nbsp Imagenes oficiales de la banda &nbsp <i class="fas fa-compact-disc"></i>
+        </h2>
+
+        <div class="gallery">
+
+            <img src="img/galeria de imagenes/1.jpg">
+            <img src="img/galeria de imagenes/2.jpg">
+            <img src="img/galeria de imagenes/3.jpg">
+            <img src="img/galeria de imagenes/4.jpg">
+            <img src="img/galeria de imagenes/5.jpg">
+            <img src="img/galeria de imagenes/6.jpg">
+            <img src="img/galeria de imagenes/7.jpg">
+
+    
+        
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--Banner-->
+
+
+    <div class="banner">
+        <div class="cassette-banner">
+            <img src="/img/cassette.png" alt="">
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer-main">
+
+
+        <!--Logo-->
+        <div class="nav-logo_footer">
+            <img src="img/personajes.png" class="nav-img_footer">
+        </div>
+
+        <!-- Lista-->
+        <div class="link-flex_footer">
+            <h1>COMUNIDAD</h1>
+            <a href="#" class="lista-enlaces-item_footer ">Inicio </a>
+            <a href="#" class="lista-enlaces-item_footer ">Nosotros</a>
+            <a href="#" class="lista-enlaces-item_footer ">Galeria</a>
+            <a href="#" class="lista-enlaces-item_footer ">Videos</a>
+            <a href="#" class="lista-enlaces-item_footer ">Contactos</a>
+
+        </div>
+
+
+
+        <!--Redes sociales-->
+        <div class="nav-redes_footer">
+            <h1>CONTACTO</h1>
+            <P>hachalahilacha@hotmail.com</P>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-spotify"></i></a>
+        </div>
+
+
+    </div>
+
+    <div class="footer_container" id="footer">
+
+
+        <div class="footer_texto">
+            <p>Copyright 2021- sebygalla</p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/d5aeea23f5.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+csssssss
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	padding: 55px 20px 0;
+
+}
+
+
+.hero_container {
+	
+	margin: 0 auto;
+	background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+}
+
+/*Logo nav*/
+
+.nav-logo img {
+
+	width: 30px;
+	margin-left: 20px;
+
+}
+
+
+
+
+/* Lista enlaces nav*/
+
+
+.nav {
+	display: flex;
+	
+	width: 100%;
+	height: 55px;
+	justify-content: space-evenly;
+	position: fixed;
+	top: 0;
+	left: 0;
+	align-items: center;
+	list-style: none;
+	z-index: 100;
+}
+
+.nav .sticky {
+	
+	background: black;
+}
+
+
+
+.nav .sticky{
+	display: flex;
+	background: black;
+	width: 100%;
+	height: 55px;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	align-items: center;
+	list-style: none;
+	z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-redes_show {
+	display: none;
+}
+
+
+
+
+
+
+.lista-enlaces .sticky {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.lista-enlaces-item {
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+/*Redes sociales nav*/
+
+.nav-redes {
+	display: flex;
+	margin-right: 20px;
+}
+
+.nav-redes a {
+	font-size: 16px;
+
+	color: black;
+	margin: 5px;
+	padding: 2px;
+}
+
+/*Boton hamburguesa*/
+
+.toggle {
+	display: none;
+	color: #ffffff;
+	background: none;
+	border: none;
+	font-size: 22px;
+	padding: 0 20px;
+	line-height: 60px;
+}
+
+
+
+
+/*Grid*/
+
+
+
+
+.hero-main {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	/*border-radius: 15px;*/
+
+	max-width: 992px;
+	margin: 0 auto;
+	height: 80vh;
+
+}
+
+
+
+
+
+
+
+
+
+/* Titulo portada*/
+
+.textos-hero {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	margin-left: 100px;
+
+}
+
+.textos-hero h1 {
+	font-size: 65px;
+	font-weight: 900;
+	line-height: 45px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	-webkit-text-stroke: 2.5px black;
+	text-shadow: 8px 5px 2px rgba(0, 0, 0, 0.253);
+	color: white;
+
+}
+
+.textos-hero h3 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 0px;
+	color: red;
+	box-shadow: 2px black;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.textos-hero p {
+	font-size: 10px;
+	color: black;
+}
+
+
+
+
+/* BOTON reutilizable*/
+
+.cta {
+
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 10px 15px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.cta-red {
+	color: white;
+	background-color: #d41f1f;
+}
+
+
+.cta-red:hover {
+	background-color: #C43535;
+}
+
+.cta-red:active {
+	background-color: #A62828;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-hero {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+
+.img-hero img {
+	width: 350px;
+	height: auto;
+	margin-right: 100px;
+
+}
+
+/*Prueba Nostros*/
+
+
+/*Grid*/
+
+.hero-main_nosotros {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	/*border-radius: 15px;*/
+	background-color: black;
+	width: 100%;
+	height: 80vh;
+	margin-top: 200px;
+	border-radius: 20px;
+
+}
+
+
+
+.textos-hero_nosotros {
+
+	width: 100%;
+	max-width: 992px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	margin: 80px auto;
+	margin-bottom: 40px;
+	padding-left: 50px;
+
+
+}
+
+.textos-hero_nosotros h1 {
+	font-size: 90px;
+	color: white;
+	text-align: justify;
+	padding: 20px;
+
+}
+
+.textos-hero_nosotros i {
+	font-size: 30px;
+	color: white;
+
+
+}
+
+.textos-hero_nosotros h2 {
+	font-size: 18px;
+	margin-top: -30px;
+	padding: 20px;
+	text-align: justify;
+	color: #eb2f06
+}
+
+.textos-hero_nosotros strong {
+	color: white;
+	font-size: 18px;
+}
+
+.textos-hero_nosotros p {
+	color: white;
+	font-weight: 200;
+	font-size: 14px;
+	text-align: justify;
+	padding: 20px;
+}
+
+
+
+.img-hero_nosotros {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.img_nosotros {
+	width: 40vw;
+	height: 50vh;
+	background: url(/img/guitarra.jpg);
+	background-size: 700px;
+	overflow: hidden;
+	padding: 20px 20px;
+	margin-top: 120px;
+	border-radius: 10px;
+
+
+}
+
+
+
+/*Fin Prueba nosotros*/
+
+
+/*Boton ir arriba*/
+
+.btn-arriba {
+	font-size: 30px;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 100%;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	background: red;
+	z-index: 9;
+	border: none;
+	/*transform: translateY(100px);*/
+	transform: scale(0);
+	transition: 0.3s;
+}
+
+
+.btn-arriba-on {
+	/*transform: translate(0);*/
+	transform: scale(1);
+}
+
+
+
+/*Nosotros*/
+
+.container-nosotros {
+	/*display: flex;
+	flex-wrap: wrap;*/
+
+	width: 100%;
+	max-width: 992px;
+	margin: 50px auto;
+	font-family: 'Roboto', sans-serif;
+	border-top: 2px solid black;
+	/*align-items: center;
+	justify-content: center;*/
+	text-align: justify;
+	position: relative;
+
+
+
+
+}
+
+
+
+.container-nosotros h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 80px 0px 10px 0px;
+
+
+}
+
+.container-nosotros h2 {
+	font-size: 35px;
+	text-align: center;
+
+}
+
+
+
+/*DISCO*/
+
+
+.container-nosotros-disco {
+
+	width: 100%;
+	max-width: 992px;
+	font-family: 'Roboto', sans-serif;
+	border-top: 2px solid black;
+	position: relative;
+
+	margin: 80px auto;
+	margin-bottom: 40px;
+
+}
+
+.nosotros-description-disco {
+	max-width: 992px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.nosotros-description-disco h1 {
+	font-size: 150px;
+	margin: 15px auto;
+	text-align: center;
+
+}
+
+.nosotros-description-disco i {
+	font-size: 40px;
+	color: black;
+
+}
+
+.nosotros-description-disco h2 {
+	font-size: 18px;
+	margin: 18px;
+	text-align: center;
+	color: rgb(212, 208, 208);
+}
+
+.nosotros-description-disco strong {
+	color: black;
+	font-size: 18px;
+}
+
+
+
+/*Guitarra*/
+
+
+
+
+
+
+
+
+
+/*Nosotros*/
+
+.nosotros-description P {
+	z-index: 999;
+}
+
+.nosotros-description h1 {
+	font-size: 150px;
+	margin: 15px;
+	text-align: center;
+
+}
+
+.nosotros-description i {
+	font-size: 40px;
+	color: black;
+
+}
+
+.nosotros-description h2 {
+	font-size: 18px;
+	margin-bottom: 18px;
+	margin-top: 0px;
+	text-align: center;
+	color: rgb(212, 208, 208);
+}
+
+.nosotros-description strong {
+	color: black;
+	font-size: 18px;
+}
+
+
+/*Banner nosotros*/
+
+
+.imagen-banda img {
+	width: 100%;
+	max-width: 400px;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*Cards*/
+
+
+.container_cards {
+
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+
+
+
+
+
+
+}
+
+.card {
+	width: 250px;
+	margin: 10px;
+	transition: 300ms;
+}
+
+.card:hover {
+	width: 350px;
+}
+
+.card .cover {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+
+.card .cover img {
+	width: 250px;
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 40px;
+	z-index: 1;
+	filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+	transition: all 400ms;
+}
+
+.card:hover .cover img {
+	top: 0;
+	filter: none;
+
+}
+
+.card:hover .img__back {
+	bottom: -40px;
+}
+
+.card .img__back {
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	bottom: -80px;
+	left: 0;
+	background-size: cover;
+	border-radius: 20px;
+	transition: all 300ms;
+}
+
+.card:nth-of-type(1) .img__back {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.card:nth-of-type(2) .img__back {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.card:nth-of-type(3) .img__back {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.card .description {
+	background: white;
+	margin-top: -10px;
+	padding: 20px;
+	border-radius: 0px 0px 20px 20px;
+	transition: all 300ms;
+}
+
+.card:hover .description {
+	padding: 40px;
+}
+
+.card .description h2 {
+	margin-top: 10px;
+
+}
+
+.card .description p {
+	margin-top: 10px;
+
+}
+
+.card .description input {
+	padding: 10px 40px;
+	margin-top: 20px;
+	border: none;
+	background: #ee0979;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: all 300ms;
+
+
+}
+
+.card .description input:hover {
+	background: #f80e2dd5;
+
+}
+
+/* Discos */
+
+.card--discos {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	margin-top: -20px;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+.card--perfil {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 450px;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgb(201, 201, 201);
+
+
+}
+
+.card--info {
+	text-align: justify;
+	padding: 5px 25px;
+	color: rgb(97, 90, 96);
+	margin: 10px 0px 0px 0px;
+}
+
+.card--info p {
+	font-size: 12px;
+	text-align: justify;
+}
+
+.card--nombre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.card--nombre h2 {
+	font-size: 20px;
+	font-weight: 900;
+	margin: 30px 0px 0px 0px;
+
+
+
+}
+
+.card--nombre img {
+	width: 250px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 5px rgb(128, 125, 125);
+	transition: 0.1s ease-out;
+
+
+}
+
+.card--nombre img:hover {
+	transform: translateY(-5px);
+	width: 260px;
+
+}
+
+
+.card--enlace {
+	padding: 10px;
+	margin: 20px;
+	border: none;
+	background: #ee0979;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: all 300ms;
+	width: 100%;
+
+
+
+}
+
+.card--enlace a {
+	color: white;
+	text-decoration: none;
+
+
+}
+
+
+/*Galeria*/
+
+.container-nosotros-galeria {
+
+	width: 100%;
+	height: auto;
+
+}
+
+.container-nosotros-galeria h1 {
+	font-size: 150px;
+	margin: 15px auto;
+	text-align: center;
+
+}
+
+.container-nosotros-galeria i {
+	font-size: 40px;
+	color: black;
+
+}
+
+.container-nosotros-galeria h2 {
+	font-size: 18px;
+	margin: 18px;
+	text-align: center;
+	color: rgb(212, 208, 208);
+}
+
+.container-nosotros-galeria strong {
+	color: black;
+	font-size: 18px;
+}
+
+
+/*Grid Gallery*/
+
+.gallery {
+	display: grid;
+	max-width: 992px;
+	grid-template-columns: 40% 20% 20% 20%;
+	grid-template-rows: 300px 200px 150px;
+	row-gap: 10px;
+	column-gap: 10px;
+	margin: 30px auto;
+
+}
+
+.gallery img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery img:nth-child(1) {
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.gallery img:nth-child(2) {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.gallery img:nth-child(3) {
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+.gallery img:nth-child(4) {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+
+.gallery img:nth-child(5) {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.gallery img:nth-child(6) {
+	grid-row-start: 2;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.gallery img:nth-child(7) {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Banner*/
+
+.banner {
+	width: 100vw;
+	height: 140px;
+	background: #ee0979;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ff6a00, #ee0979);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: absolute;
+	left: 0;
+	margin-top: 500px;
+}
+
+.cassette-banner img {
+	width: 350px;
+	position: absolute;
+	top: -220px;
+
+
+}
+
+
+
+
+
+
+
+/*Footer*/
+
+
+.footer_container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background: black;
+
+}
+
+.footer_container a {
+	color: white;
+}
+
+.footer_texto p {
+	color: white;
+	font-size: 20px;
+
+}
+
+.footer_redes {
+	font-size: 25px;
+
+}
+
+.footer_redes a {
+	padding: 0 10px;
+
+}
+
+/*...........*/
+
+
+.link-flex_footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.link-flex_footer h1 {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+.lista-enlaces-item_footer {
+
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+
+
+}
+
+
+
+
+.nav-logo_footer {
+	margin: 0 auto;
+
+}
+
+.nav-logo_footer img {
+	width: 100px;
+	margin-bottom: -50px;
+}
+
+
+
+.nav-redes_footer {
+	font-size: 25px;
+	margin: 0 auto;
+
+
+}
+
+.nav-redes_footer i {
+	color: black;
+	margin: 15px;
+	margin-left: 30px;
+
+}
+
+.nav-redes_footer h1 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+
+.nav-redes_footer p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.nav-logo_footer i {
+	color: black;
+}
+
+.footer_texto p {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+
+
+
+/*Footer cuerpo contenedor*/
+
+.footer-main {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	
+	width: 100%;
+	height: 250px;
+	margin: 800px 0px auto;
+	background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+
+}
+
+
+
+.link-flex_footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+}
+
+.lista-enlaces-item_footer {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+.nav-logo_footer img {
+	width: 100px;
+
+
+
+}
+
+.nav-redes_footer {
+	font-size: 20px;
+	flex-direction: column;
+
+}
+
+.nav-logo_footer i {
+	color: black;
+}
+
+
+
+
+
+
+
+/* Medias Querys*/
+
+@media (max-width: 992px) {
+
+	.toggle {
+		display: block;
+		color: white;
+		background: none;
+		border: none;
+		font-size: 22px;
+		padding: 0 20px;
+		line-height: 60px;
+		cursor: pointer;
+	}
+
+	.nav {
+		justify-content: space-between;
+
+	}
+
+
+	.nav-redes_show {
+		display: block;
+		margin-top: 100px;
+		font-size: 20px;
+	}
+
+	.nav-redes_show a {
+		color: white;
+		padding: 10px;
+
+	}
+
+
+
+
+	.hero_container {
+
+		width: 100vw;
+		margin: -50px -20px;
+
+		background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+	}
+
+
+
+
+
+
+
+
+	/* Lista enlaces nav*/
+
+	.lista-enlaces {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding: 20px 0;
+		position: fixed;
+		left: 0;
+		top: 50px;
+		width: 100%;
+		height: calc(100% - 50px);
+		overflow-y: auto;
+		background: #000000;
+		/* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #434343, #000000);
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #434343, #000000);
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+		left: 100%;
+		transition: left 0.5s ease;
+
+
+	}
+
+	.lista-enlaces_visible {
+		left: 0;
+	}
+
+
+
+
+
+	.lista-enlaces-item {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 40px;
+		padding: 0;
+
+	}
+
+	/*Redes sociales nav*/
+
+	.nav-redes {
+		display: none;
+
+
+
+	}
+
+	.nav-redes a {
+		font-size: 20px;
+		color: white;
+		margin: 5px;
+		padding: 2px;
+
+	}
+
+
+
+
+	.textos-hero {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: center;
+		margin-left: 30px;
+
+	}
+
+	.img-hero img {
+		width: 350px;
+		height: auto;
+		margin-right: 30px;
+
+	}
+
+	/*Logo nav*/
+
+	.nav-logo img {
+		width: 35px;
+		margin-left: 12px;
+
+
+	}
+
+	.hero-main {}
+
+
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+	.toggle {
+		display: block;
+		color: white;
+		background: none;
+		border: none;
+		font-size: 22px;
+		padding: 0 20px;
+		line-height: 60px;
+	}
+
+
+
+
+
+
+
+
+
+	/* Titulo portada*/
+
+	.textos-hero {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: center;
+		margin-left: 30px;
+	}
+
+	.textos-hero h1 {
+		font-size: 45px;
+		font-weight: 900;
+		line-height: 34px;
+	}
+
+	.textos-hero h3 {
+		font-size: 30px;
+		font-weight: 400;
+		color: #eb2f06;
+
+	}
+
+	.textos-hero p {
+		font-size: 10px;
+		color: black;
+	}
+
+	.textos-hero .cta {
+		color: white;
+		background-color: #eb2f06;
+		padding: 8px 10px;
+		text-decoration: none;
+		margin: 10px 0px;
+		border-radius: 3px;
+		font-size: 15px;
+	}
+
+
+
+	.img-hero {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+
+
+	}
+
+
+	.img-hero img {
+		width: 350px;
+		height: auto;
+		margin-right: 30px;
+	}
+
+
+
+
+	@media (max-width: 659px) {
+
+		/* Titulo portada*/
+
+		.textos-hero {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			order: 2;
+			margin-left: 0px;
+			padding: 15px;
+
+		}
+
+
+
+		.textos-hero h1 {
+			font-size: 50px;
+			font-weight: 900;
+			line-height: 35px;
+			text-align: center;
+			order: 0;
+
+		}
+
+		.textos-hero h3 {
+			font-size: 20px;
+			font-weight: 600;
+			color: red;
+			margin-top: 5px;
+			order: 0;
+
+		}
+
+		.textos-hero p {
+			display: none;
+		}
+
+		.textos-hero .cta {
+			color: white;
+
+			background: red;
+			padding: 8px 10px;
+			text-decoration: none;
+			margin: 10px 0px;
+			border-radius: 3px;
+			font-size: 18px;
+			order: 4;
+		}
+
+
+		.img-hero img {
+			width: 270px;
+			height: auto;
+			margin-right: 0;
+
+
+		}
+
+
+
+		/*Footer*/
+
+
+		/*Footer contenedor de CoPYrigth*/
+		.footer_container {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 50px;
+			width: 100%;
+			position: relative;
+			background: black;
+
+		}
+
+		.footer_texto p {
+			color: white;
+			font-size: 16px;
+			font-weight: 200;
+
+		}
+
+
+
+		/*Footer cuerpo contenedor*/
+
+		.footer-main {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 500px;
+			margin: 60px 0 auto;
+			background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+
+		}
+
+		/*Enlaces footer (COMUNIDAD)*/
+
+		.link-flex_footer {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.link-flex_footer h1 {
+			font-size: 25px;
+			margin-bottom: 10px;
+		}
+
+		.lista-enlaces-item_footer {
+			color: black;
+			text-decoration: none;
+			font-size: 18px;
+
+		}
+
+
+
+
+		/*Personajes pixeleados footer*/
+		.nav-logo_footer img {
+			width: 100px;
+			padding-bottom: 20px;
+
+		}
+
+		/*Redes sociales footer*/
+		.nav-redes_footer {
+			font-size: 25px;
+			flex-direction: column;
+		}
+
+		.nav-redes_footer i {
+			color: black;
+			margin: 15px;
+			margin-left: 30px;
+
+		}
+
+		.nav-redes_footer h1 {
+			font-size: 25px;
+			text-align: center;
+			font-weight: bold;
+			margin-top: 10px;
+			margin-bottom: 10px;
+
+		}
+
+		.nav-redes_footer p {
+			font-size: 18px;
+			text-align: center;
+		}
+
+		/*Prueba Nostros*/
+
+
+		/*Grid*/
+
+		.hero-main_nosotros {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			/*border-radius: 15px;*/
+			background-color: black;
+			width: 100%;
+			height: 100vh;
+			margin-top: 50px;
+
+
+		}
+
+		.hero_container {
+
+			border-radius: 6px;
+			background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+		}
+
+
+
+		.img-hero_nosotros {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			background-color: black;
+			align-items: center;
+			justify-content: center;
+			margin-top: 20px;
+
+
+		}
+
+
+		.img_nosotros {
+			width: 100vw;
+			height: 40vh;
+			background: url(/img/banner.jpg);
+			background-size: 350px;
+			justify-content: center;
+			align-items: center;
+			background-repeat: repeat;
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+
+
+		/* Titulo portada*/
+
+		.textos-hero_nosotros {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: black;
+			padding: 0;
+
+
+		}
+
+		.textos-hero_nosotros h1 {
+			font-size: 50px;
+		}
+
+		.textos-hero_nosotros h2 {
+			font-size: 12px;
+			margin-bottom: -40px;
+		}
+
+		.textos-hero_nosotros strong {
+			font-size: 12px;
+		}
+
+		.textos-hero_nosotros i {
+			font-size: 15px;
+		}
+
+
+		.textos-hero_nosotros p {
+			font-size: 12px;
+			padding: 30px;
+			color: white;
+			text-align: justify;
+			max-width: 600px;
+
+
+
+		}
+
+
+		/*Fin Prueba nosotros*/
+
+		.card--discos {
+			display: flex;
+			width: 100%;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 25px;
+			margin: -80px auto;
+			max-width: 992px;
+		}
+
+		.card--enlace {
+			width: 100%;
+			background: #ee0979;
+			font-size: 15px;
+			font-weight: 600;
+		}
+
+		/*Banner*/
+
+		.banner {
+			width: 100%;
+			height: 80px;
+			background: #ee0979;
+			/* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+			/* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #ff6a00, #ee0979);
+			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			position: relative;
+			margin-top: 300px;
+
+		}
+
+		.cassette-banner img {
+			width: 200px;
+			position: absolute;
+			top: -135px;
+		}
+
+
+
+
+		/* Pruebaaaaa*/
+
+
+		/*Nosotros*/
+
+		.container-nosotros {
+			/*display: flex;
+			flex-wrap: wrap;*/
+
+			width: 100%;
+			max-width: 992px;
+			margin-top: 60px;
+			font-family: 'Roboto', sans-serif;
+			border-top: 2px solid black;
+			/*align-items: center;
+			justify-content: center;*/
+			text-align: justify;
+			position: relative;
+
+
+
+		}
+
+
+
+		.container-nosotros h1 {
+			font-size: 30px;
+			text-align: center;
+			margin: 100px 0px 10px 0px;
+
+
+		}
+
+		.container-nosotros h2 {
+			font-size: 35px;
+			text-align: center;
+
+		}
+
+		.nosotros-description P {
+			z-index: 999;
+		}
+
+		.nosotros-description h1 {
+			font-size: 50px;
+			letter-spacing: 1px;
+			margin: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+		.nosotros-description i {
+			font-size: 15px;
+
+
+		}
+
+		.nosotros-description h2 {
+			font-size: 12px;
+			margin: 18px;
+			text-align: center;
+			color: rgb(212, 208, 208);
+		}
+
+		.nosotros-description strong {
+			color: black;
+			font-size: 12px;
+		}
+
+
+
+
+		.card--discos {
+			margin-top: -30px;
+		}
+
+		.container-nosotros-disco {
+			/*display: flex;
+			flex-wrap: wrap;*/
+
+			width: 100vw;
+			max-width: 300px;
+			margin-top: 60px;
+			font-family: 'Roboto', sans-serif;
+			border-top: 2px solid black;
+			/*align-items: center;
+			justify-content: center;*/
+			text-align: justify;
+			position: relative;
+			margin-top: 200px;
+
+
+
+		}
+
+		.card .description input {
+			font-family: 'Roboto', sans-serif;
+			padding: 10px 40px;
+			margin-top: 20px;
+			border: none;
+			background: #ee0979;
+			color: white;
+			font-size: 15px;
+			font-weight: 400;
+			cursor: pointer;
+			border-radius: 8px;
+			transition: all 300ms;
+
+
+		}
+
+		.nosotros-description-disco h1 {
+			font-size: 50px;
+		}
+
+		.nosotros-description-disco h2 {
+			font-size: 12px;
+		}
+
+		.nosotros-description-disco strong {
+			color: black;
+			font-size: 12px;
+		}
+
+		.nosotros-description-disco i {
+			font-size: 15px;
+
+
+		}
+
+
+
+
+
+		/*Boton arriba*/
+
+		.btn-arriba {
+			font-size: 20px;
+			color: white;
+			padding: 7px 11px;
+			border-radius: 100%;
+			cursor: pointer;
+			position: fixed;
+			bottom: 30px;
+			right: 14px;
+			background: red;
+			z-index: 1;
+			border: none;
+			/*transform: translateY(100px);*/
+			transform: scale(0);
+			transition: 0.3s;
+		}
+
+		.btn-arriba-on {
+			/*transform: translate(0);*/
+			transform: scale(1);
+		}
+
+
+
+
+
+		/*Grid Gallery*/
+
+		.container-nosotros-galeria {
+			margin-top: 150px;
+		}
+
+		.container-nosotros-galeria h1 {
+			font-size: 50px;
+		}
+
+		.container-nosotros-galeria h2 {
+			font-size: 12px;
+		}
+
+		.container-nosotros-galeria strong {
+			color: black;
+			font-size: 12px;
+		}
+
+		.container-nosotros-galeria i {
+			font-size: 15px;
+
+
+		}
+
+
+
+
+
+
+		.gallery {
+			display: grid;
+			grid-template-columns: 100%;
+			grid-template-rows: 200px 1fr;
+
+			row-gap: 1px;
+
+
+
+		}
+
+		.gallery img {
+			width: 100%;
+			height: 90%;
+			object-fit: cover;
+		}
+
+		.gallery img:nth-child(1) {
+			grid-row-start: 1;
+			grid-row-end: 1;
+			grid-column-start: 1;
+			grid-column-end: 2;
+		}
+
+		.gallery img:nth-child(2) {
+			grid-row-start: 2;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 1;
+		}
+
+		.gallery img:nth-child(3) {
+			grid-row-start: 3;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 1;
+		}
+
+		.gallery img:nth-child(4) {
+			grid-row-start: 5;
+			grid-row-end: 4;
+			grid-column-start: 1;
+			grid-column-end: 1;
+		}
+
+		.gallery img:nth-child(5) {
+			grid-row-start: 3;
+			grid-row-end: 4;
+			grid-column-start: 1;
+			grid-column-end: 1;
+		}
+
+		.gallery img:nth-child(6) {
+
+			grid-row-start: 4;
+			grid-row-end: 4;
+			grid-column-start: 1;
+			grid-column-end: 1;
+		}
+
+		.gallery img:nth-child(7) {
+			margin-top: -45px;
+			grid-row-start: 5;
+			grid-row-end: 5;
+			grid-column-start: 1;
+			grid-column-end: 1;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+	@media (max-width: 360px) {
+
+		/* Titulo portada*/
+
+		.hero-main {
+			height: 65vh;
+		}
+
+		.hero_container {
+
+			border-radius: 5px;
+			background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+		}
+
+
+		.textos-hero {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			order: 2;
+			margin-left: 0px;
+			padding: 15px;
+			margin-top: -35px;
+
+		}
+
+		.textos-hero p {
+			display: none;
+		}
+
+		.textos-hero .cta {
+			color: white;
+			background-color: #eb2f06;
+			padding: 8px 10px;
+			text-decoration: none;
+			margin: 10px 0px;
+			border-radius: 3px;
+			font-size: 14px;
+			order: 4;
+		}
+
+		.textos-hero h1 {
+			font-size: 30px;
+			font-weight: 900;
+			line-height: 30px;
+			font-family: 'Roboto', sans-serif;
+			letter-spacing: 1px;
+			-webkit-text-stroke: 1.2px black;
+			text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.253);
+			color: white;
+
+		}
+
+		.textos-hero h3 {
+			font-size: 20px;
+			font-weight: 400;
+			margin-top: 5px;
+			color: red;
+			letter-spacing: -1px;
+			text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.247);
+			font-family: 'Roboto', sans-serif;
+
+		}
+
+
+
+
+
+		.img-hero img {
+			width: 270px;
+			height: auto;
+			margin-right: 0;
+
+
+		}
+
+
+		/*Nosotros*/
+
+		.container-nosotros {
+			display: flex;
+			flex-direction: column;
+			max-width: 270px;
+			margin: 80px auto;
+			font-family: 'Roboto', sans-serif;
+			align-items: center;
+			justify-content: center;
+			text-align: justify;
+			position: relative;
+		}
+
+
+
+		.container-nosotros h1 {
+			font-size: 20px;
+			font-weight: 900;
+			text-align: center;
+			margin: 40px 0px 20px 0px;
+
+
+		}
+
+		.container-nosotros h2 {
+			font-size: 35px;
+			text-align: center;
+
+		}
+
+		.container-nosotros p {
+			font-size: 10px;
+			margin: 20px;
+		}
+
+		.description h2 {
+			font-size: 25px;
+			text-align: left;
+		}
+
+		.description p {
+			font-size: 13px;
+			text-align: left;
+		}
+
+		.nosotros-description p {
+			margin: -10px;
+
+		}
+
+		.nosotros-description h1 {
+			margin-top: 80px;
+
+		}
+
+		/*Banner nosotros*/
+		.imagen-banda {
+			margin-top: -40px;
+		}
+
+
+		.imagen-banda img {
+			width: 100vw;
+			max-width: 290px;
+			margin: 80px auto;
+		}
+
+
+
+
+		/*Prueba Nostros*/
+
+
+		/*Grid*/
+
+		.hero-main_nosotros {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			/*border-radius: 15px;*/
+			background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+			width: 100%;
+			height: 80vh;
+			margin-top: 50px;
+
+		}
+
+
+		/* Titulo portada*/
+
+		.textos-hero_nosotros {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+
+		}
+
+
+		.textos-hero_nosotros p {
+			font-size: 8px;
+			padding: 30px;
+			color: black;
+			text-align: justify;
+
+
+
+		}
+
+
+		.img-hero_nosotros {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+
+			align-items: center;
+			justify-content: center;
+			border-radius: 25px;
+		}
+
+
+		.img_nosotros {
+			width: 60vw;
+			height: 40vh;
+			background: url(../img/pixel\ logo.jpg);
+			background-size: 230px;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+			padding: 20px 20px;
+
+		}
+
+
+
+		/*Fin Prueba nosotros*/
+
+
+
+
+
+
+
+
+		/* Discos */
+
+		.container_cards {
+			margin-top: -160px;
+		}
+
+		.card--discos {
+			display: flex;
+			width: 100%;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 25px;
+			margin: -80px auto;
+			max-width: 992px;
+		}
+
+		.card--perfil {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			flex-direction: column;
+			width: 300px;
+			height: 450px;
+			text-align: center;
+			box-shadow: 2px 2px 5px rgb(201, 201, 201);
+
+
+		}
+
+		.card--info {
+			font-size: 14px;
+			text-align: center;
+			padding: 1px 25px;
+			color: rgb(97, 90, 96);
+			margin: 10px 0px 0px 0px;
+		}
+
+		.card--nombre {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+		}
+
+		.card--nombre h2 {
+			font-family: 'Roboto', sans-serif;
+			font-size: 20px;
+			font-weight: 700;
+			margin: 10px 0px 0px 0px;
+
+
+
+		}
+
+		.card--nombre img {
+			width: 230px;
+			margin-top: 20px;
+			box-shadow: 2px 2px 5px rgb(128, 125, 125);
+
+
+		}
+
+		.card--nombre img:hover {
+			transform: translateY(-15px);
+
+
+		}
+
+
+		.card--enlace {
+			padding: 10px;
+			margin: 20px;
+			border: none;
+			background: #a63590;
+			font-size: 12px;
+			font-weight: 700;
+			cursor: pointer;
+			border-radius: 8px;
+			transition: all 300ms;
+			width: 80px;
+			height: auto;
+
+
+		}
+
+		.card--enlace a {
+			color: white;
+			text-decoration: none;
+
+		}
+
+		.card .description input {
+			font-size: 12px;
+
+
+
+		}
+
+		/*Paralax*/
+
+
+
+
+
+
+		/*Footer*/
+
+
+		/*Footer contenedor de CoPYrigth*/
+		.footer_container {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 50px;
+			width: 100%;
+			position: relative;
+			background: black;
+
+		}
+
+		.footer_texto p {
+			color: white;
+			font-size: 12px;
+			font-weight: 500;
+
+		}
+
+
+
+		/*Footer cuerpo contenedor*/
+
+		.footer-main {
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-evenly;
+			align-items: baseline;
+			width: 100%;
+			height: 400px;
+			margin: 150px 0 auto;
+			background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+
+		}
+
+		/*Enlaces footer (COMUNIDAD)*/
+
+		.link-flex_footer {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.lista-enlaces-item_footer {
+			color: black;
+			text-decoration: none;
+			font-size: 12px;
+			margin: 3px;
+		}
+
+		.link-flex_footer h1 {
+			font-size: 14px;
+			text-align: center;
+			font-weight: 900;
+			margin-bottom: 10px;
+		}
+
+
+
+
+		/*Personajes pixeleados footer*/
+		.nav-logo_footer img {
+			width: 80px;
+		}
+
+		/*Redes sociales footer*/
+		.nav-redes_footer {
+			font-size: 18px;
+			flex-direction: column;
+		}
+
+		.nav-redes_footer i {
+			color: black;
+			margin: 15px;
+			margin-left: 30px;
+
+		}
+
+		.nav-redes_footer h1 {
+			font-size: 14px;
+			text-align: center;
+			font-weight: bold;
+			margin-bottom: 10px;
+
+ 		}
+
+		.nav-redes_footer p {
+			font-size: 12px;
+			text-align: center;
+		}
+
+	}
+}
+
+
+
+
