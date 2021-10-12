@@ -138,7 +138,7 @@
         align-items: center;
         flex-wrap: wrap;
         overflow: hidden;
-        background:  #828896a1;
+        background: #828896a1;
 
 
         /*
@@ -153,11 +153,15 @@
     }
 
     .hero-img {
-        width: 250px;
+        width: 300px;
         height: auto;
-        margin-top: -9px;
         max-width: 992px;
         min-width: 100px;
+        position: absolute;
+        top: 6%;
+        left: 12%;
+        z-index: 1;
+
 
     }
 
@@ -170,8 +174,31 @@
         flex-wrap: wrap;
         text-align: center;
         margin-bottom: 3rem;
-      
+        z-index: 2;
 
+        position: absolute;
+        top: 500px;
+        left: 25%;
+
+        animation: cinemas 1s alternate infinite ease-in;
+        animation-timing-function: linear;
+
+    }
+
+
+    @keyframes cinemas {
+        0% {
+
+            scale: 100%;
+
+
+        }
+
+        100% {
+
+            scale: 90%;
+
+        }
 
     }
 
@@ -269,9 +296,74 @@
 
     /*Discos*/
 
-    .card-discos{
+    .card-discos {
         gap: 50px;
     }
+
+
+
+    /*FOOTER CASSETTE*/
+
+    .footer-container {
+
+
+        background: #ee0979;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        margin-top: 500px;
+
+
+    }
+
+    .footer-logo {
+        width: 100px;
+
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-link a {
+        color: #E9ECF4;
+        margin-top: 10px;
+    }
+
+    .footer-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-redes p {
+        color: #E9ECF4;
+    }
+
+    .footer-redes i {
+        color: #E9ECF4;
+        margin-top: 10px;
+    }
+
+
+
 
 
 
