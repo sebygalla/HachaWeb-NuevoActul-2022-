@@ -136,11 +136,15 @@ header .redes-sociales a:hover {
     width: 400px;
     height: auto;
     position: absolute;
-    top: 60px;
-    right: 160px;
+
+   
+
     margin-top: 20px;
     max-width: 992px;
     min-width: 100px;
+
+    top: 60px;
+    left: 160px;
   
 }
 
@@ -156,8 +160,10 @@ header .redes-sociales a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     position: absolute;
+
     top: 260px;
-    left: 260px;
+    right: 60px;
+   
 
     animation: cinemas 3s alternate infinite ease-in;
     animation-timing-function: linear;
@@ -168,14 +174,14 @@ header .redes-sociales a:hover {
 @keyframes cinemas {
     0%{
         top: 260px;
-        left: 260px;
+        right: 260px;
         transform: translateX(-5%);
 
     }
    
     100%{
         top: 260px;
-        left: 260px;
+        right: 260px;
         transform: translateX(0%);
 
     }
