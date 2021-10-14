@@ -21,17 +21,6 @@ body {
 
 /*BARRA DE NAVEGACION*/
 /*********************/
-/*
-header::before{
-    content: "";
-    width: 100%;
-    height: 100vh;
-    background-color: forestgreen;
-    position: absolute;
-    opacity: 0.5;
-    z-index: -1;
-}
-*/
 
 header .navbar {
     background: black;
@@ -97,7 +86,7 @@ header .redes-sociales a:hover {
 }
 
 
-/*
+
 .container{
   
     min-height: 100vh;
@@ -113,7 +102,7 @@ header .redes-sociales a:hover {
     
 }
 
-*/
+
 
 
 /*CONTENIDO PRINCIPAL*/
