@@ -97,7 +97,7 @@ header .redes-sociales a:hover {
 }
 
 
-
+/*
 .container{
   
     min-height: 100vh;
@@ -106,11 +106,14 @@ header .redes-sociales a:hover {
 }
 
 
+
 #footer{
     min-height: 100vh;
     position: relative;
     
 }
+
+*/
 
 
 /*CONTENIDO PRINCIPAL*/
@@ -146,15 +149,9 @@ header .redes-sociales a:hover {
     width: 400px;
     height: auto;
   
-
-   
-
     margin-top: 20px;
     max-width: 992px;
     min-width: 100px;
-
-
-  
 }
 
 .logo {
@@ -347,18 +344,11 @@ header .redes-sociales a:hover {
 
 .container_cards {
 
-
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-
-
-
-
-
-
 
 
 }
