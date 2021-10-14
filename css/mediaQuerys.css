@@ -1,42 +1,107 @@
-/* Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 992px and up)*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+
+
+    header .navbar {
+
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+    }
+
+    /*MENU ENLACES*/
+
+
+    header .navbar {
+        background: black;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /*MENU ENLACES*/
+    
+    header .menu ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .menu ul li {
+        list-style: none;
+        margin-right: 1.5rem;
+    }
+    
+    header .menu ul li a {
+        text-decoration: none;
+        color: #E9ECF4;
+        font-size: .6rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    
+    header .menu ul li a:hover {
+        color: gray;
+    
+    }
+
+
+
+    /*MENU HAMBURGUESA*/
+
+    header .toggle {
+        display: none;
+        margin-right: 20px;
+        cursor: pointer;
+
+    }
+
+    /*REDES SOCIALES*/
+    header .redes-sociales {
+        display: block;
+
+    }
+
+
+    /*LOGO*/
+    .logo {
+        width: 25px;
+        margin-left: 20px;
+    }
+
+
 
     /*CONTENIDO PRINCIPAL*/
     /*********************/
 
     .hero-main {
         display: flex;
-        width: 100%;
-        height: 100vh;
-        flex-direction: column-reverse;
-
-        justify-content: space-around;
+        width: 100vw;
+        height: calc(100vh- 50px);
+        flex-direction: row-reverse;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         overflow: hidden;
         background: #828896a1;
-
-
-        /*
-    background: rgba(212, 228, 239, 1);
-    background: -moz-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(212, 228, 239, 1)), color-stop(100%, rgba(207, 89, 89, 1)));
-    background: -webkit-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: linear-gradient(135deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);*/
+        margin: 0 auto;
+        gap: 35px;
 
     }
 
     .hero-img {
-        width: 260px;
+        width: 350px;
         height: auto;
-        max-width: 992px;
+        max-width: 350px;
         min-width: 100px;
-        margin-top: -5px;
-
-
 
     }
 
@@ -45,24 +110,12 @@
     /*TEXTO PORTADA PRINCIPAL*/
 
     .hero-textos {
-       
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 28px;
-       
-
+        align-items: flex-start;
 
     }
-
-
-
-
-
-
-
 
     .hero-textos h1 {
         font-size: 4rem;
@@ -76,7 +129,7 @@
     }
 
     .hero-textos h3 {
-        font-size: 1rem;
+        font-size: 1.6rem;
         font-weight: 600;
         margin: 10px 0px;
         color: #da251c;
@@ -85,8 +138,8 @@
     }
 
     .hero-textos .span2 {
-        font-size: 55px;
-        letter-spacing: 1px;
+        font-size: 65px;
+        letter-spacing: -2px;
     }
 
 
@@ -108,8 +161,6 @@
 
     }
 
-
-
     .action-red {
         color: white;
         background-color: #da251c;
@@ -129,6 +180,139 @@
 
 
 
+    /*Discos*/
+
+    .card-discos {
+        gap: 80px;
+    }
+
+
+
+    /*FOOTER CASSETTE*/
+
+
+    #footer .cassette {
+        width: 400px;
+        position: absolute;
+        margin-top: auto;
+        bottom: -310px;
+        z-index: 1;
+    }
+
+
+
+    .footer-container {
+
+        background: #ee0979;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: baseline;
+        flex-wrap: wrap;
+
+        width: 100%;
+        height: 300px;
+        bottom: -410px;
+
+
+
+    }
+
+    .footer-container a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+    .footer-logo {
+        width: 80px;
+
+
+
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+
+    }
+
+    .footer-link a {
+        color: #E9ECF4;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .footer-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-redes p {
+        color: #E9ECF4;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .footer-redes i {
+        color: #E9ECF4;
+        margin-top: 15px;
+
+    }
+
+    .footer-redes p {
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .footer-texto {
+        background-color: black;
+        width: 100vw;
+        height: 50px;
+        color: #E9ECF4;
+        position: absolute;
+        bottom: -460px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-texto p {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media screen and (max-width: 768px) {
 
 
     header .navbar {
@@ -143,6 +327,7 @@
     }
 
     /*MENU ENLACES*/
+
 
     header .menu {
         position: absolute;
@@ -163,6 +348,7 @@
     header .menu-on {
         transform: translateX(0%);
     }
+
 
     header .menu ul {
         display: flex;
@@ -198,6 +384,8 @@
 
     }
 
+
+
     /*MENU HAMBURGUESA*/
 
     header .toggle {
@@ -222,125 +410,30 @@
 
 
 
-
-
-
-
-    /*FOOTER CASSETTE*/
-
-
-    #footer .cassette {
-        width: 250px;
-        position: absolute;
-        margin-top: auto;
-        bottom: -2450px;
-        z-index: 1;
-    }
-
-    .footer-container {
-
-
-        background: #ee0979;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        position: absolute;
-        width: 100%;
-        height: 500px;
-        margin-top: 800px;
-
-
-    }
-
-    .footer-logo {
-        width: 100px;
-
-    }
-
-    .footer-link {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .footer-link a {
-        color: #E9ECF4;
-        margin-top: 10px;
-    }
-
-    .footer-redes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .footer-redes p {
-        color: #E9ECF4;
-    }
-
-    .footer-redes i {
-        color: #E9ECF4;
-        margin-top: 10px;
-    }
-
-
-
-
-
-
-
-
-
-
-}
-
-@media screen and (max-width: 384px) {
-
     /*CONTENIDO PRINCIPAL*/
     /*********************/
 
     .hero-main {
         display: flex;
-        width: 100%;
-        height: 100vh;
+        width: 100vw;
+        height: calc(100vh- 50px);
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         overflow: hidden;
         background: #828896a1;
-
-
-        /*
-    background: rgba(212, 228, 239, 1);
-    background: -moz-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(212, 228, 239, 1)), color-stop(100%, rgba(207, 89, 89, 1)));
-    background: -webkit-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);
-    background: linear-gradient(135deg, rgba(212, 228, 239, 1) 0%, rgba(207, 89, 89, 1) 100%);*/
+        margin: 0 auto;
+        gap: 15px;
 
     }
 
     .hero-img {
         width: 250px;
         height: auto;
-        max-width: 992px;
+        max-width: 350px;
         min-width: 100px;
-
-
+        margin-top: -20px;
 
     }
 
@@ -350,20 +443,16 @@
 
     .hero-textos {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        text-align: center;
-        margin-bottom: 3rem;
-
-
-
+        align-items: flex-start;
 
     }
-
 
     .hero-textos h1 {
         font-size: 3rem;
         font-weight: 900;
-        line-height: 30px;
+        line-height: 35px;
         font-family: 'Roboto', sans-serif;
         letter-spacing: -5px;
         -webkit-text-stroke: 2.5px black;
@@ -372,8 +461,7 @@
     }
 
     .hero-textos h3 {
-        font-size: .1rem;
-
+        font-size: 1rem;
         font-weight: 600;
         margin: 10px 0px;
         color: #da251c;
@@ -382,27 +470,24 @@
     }
 
     .hero-textos .span2 {
-        font-size: 2rem;
-        letter-spacing: 1px;
-        line-height: 2px;
+        font-size: 45px;
+        letter-spacing: -2px;
     }
 
-    .hero-textos span {
-        font-size: 3rem;
-        letter-spacing: 1px;
-    }
+
+
 
 
 
     /* BOTON reutilizable*/
 
     .action {
-
-        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 500;
         text-decoration: none;
         border-radius: 3px;
         display: inline-block;
-        padding: 10px 15px;
+        padding: 6px 9px;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 
@@ -430,7 +515,7 @@
     /*Discos*/
 
     .card-discos {
-        gap: 50px;
+        gap: 80px;
     }
 
 
@@ -439,15 +524,16 @@
 
 
     #footer .cassette {
-        width: 250px;
+        width: 300px;
         position: absolute;
         margin-top: auto;
-        bottom: -2450px;
+        bottom: -250px;
         z-index: 1;
     }
 
-    .footer-container {
 
+
+    .footer-container {
 
         background: #ee0979;
         /* fallback for old browsers */
@@ -456,23 +542,29 @@
         background: linear-gradient(to right, #ff6a00, #ee0979);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-
         display: flex;
         align-items: center;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: baseline;
         flex-wrap: wrap;
-        position: absolute;
+
         width: 100%;
-        height: 500px;
-        margin-top: 500px;
+        height: 300px;
+        bottom: -410px;
+
 
 
     }
 
+    .footer-container a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
     .footer-logo {
-        width: 100px;
+        width: 80px;
+
+
 
     }
 
@@ -481,28 +573,413 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 35px;
     }
+
+    .footer-link h1{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
 
     .footer-link a {
         color: #E9ECF4;
         margin-top: 10px;
+        font-size: 15px;
     }
 
     .footer-redes {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .footer-redes h1{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .footer-redes p {
+        color: #E9ECF4;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+  
+
+    .footer-redes i {
+        color: black;
+        margin-top: 15px;
+        padding: 5px;
+
+    }
+
+    .footer-redes p {
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .footer-texto {
+        background-color: black;
+        width: 100vw;
+        height: 50px;
+        color: #E9ECF4;
+        position: absolute;
+        bottom: -460px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-texto p {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 384px) {
+
+    
+    header .navbar {
+
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+    }
+
+    /*MENU ENLACES*/
+
+
+    header .menu {
+        position: absolute;
+        top: 50px;
+        background: black;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: gray;
+        transform: translateX(100%);
+        transition: all .5s ease-in;
+
+    }
+
+    header .menu-on {
+        transform: translateX(0%);
+    }
+
+
+    header .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: transparent;
+        margin-top: -25%;
+
+
+
+    }
+
+    header .menu ul li {
+        list-style: none;
+        margin-right: 14px;
+        padding: 2rem;
+
+
+    }
+
+    header .menu ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 300;
+        cursor: pointer;
+
+    }
+
+    header .menu ul li a:hover {
+        font-weight: 900;
+
+
+    }
+
+
+
+    /*MENU HAMBURGUESA*/
+
+    header .toggle {
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+
+    }
+
+    /*REDES SOCIALES*/
+    header .redes-sociales {
+        display: none;
+
+    }
+
+
+    /*LOGO*/
+    .logo {
+        width: 25px;
+        margin-left: 20px;
+    }
+
+
+
+    /*CONTENIDO PRINCIPAL*/
+    /*********************/
+
+    .hero-main {
+        display: flex;
+        width: 100vw;
+        height: calc(100vh- 50px);
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        background: #828896a1;
+        margin: 0 auto;
+        gap: 10px;
+
+    }
+
+    .hero-img {
+        width: 250px;
+        height: auto;
+        max-width: 350px;
+        min-width: 100px;
+       
+
+    }
+
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 45px;
+
+    }
+
+    .hero-textos h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 35px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: -5px;
+        -webkit-text-stroke: 2.5px black;
+        text-shadow: 8px 5px 2px rgba(0, 0, 0, 0.253);
+        color: white;
+    }
+
+    .hero-textos h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 10px 0px;
+        color: #da251c;
+        box-shadow: 2px black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .hero-textos .span2 {
+        font-size: 45px;
+        letter-spacing: -1px;
+    }
+
+
+
+
+
+
+    /* BOTON reutilizable*/
+
+    .action {
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 3px;
+        display: inline-block;
+        padding: 6px 9px;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .action-red {
+        color: white;
+        background-color: #da251c;
+    }
+
+
+    .action-red:hover {
+        background-color: #C43535;
+    }
+
+    .action-red:active {
+        background-color: #A62828;
+    }
+
+
+
+
+
+
+    /*Discos*/
+
+    .card-discos {
+        gap: 80px;
+    }
+
+
+
+    /*FOOTER CASSETTE*/
+
+    #footer .cassette {
+        width: 250px;
+        position: absolute;
+        margin-top: auto;
+        bottom: -50px;
+        z-index: 1;
+    }
+
+
+
+    .footer-container {
+
+        background: #ee0979;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: baseline;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        width: 100%;
+        height: 500px;
+        bottom: -410px;
+
+
+
+    }
+
+    .footer-container a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+    .footer-logo {
+        width: 80px;
+
+
+
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+
+    }
+
+    .footer-link a {
+        color: #E9ECF4;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .footer-link h1{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .footer-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
 
     }
 
     .footer-redes p {
         color: #E9ECF4;
+        margin-top: 15px;
+        font-size: 12px;
     }
 
     .footer-redes i {
-        color: #E9ECF4;
-        margin-top: 10px;
+        color: black;
+        margin-top: 15px;
+        padding: 5px;
+
     }
+
+    .footer-redes p {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer-redes h1{
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+
+    .footer-texto {
+        background-color: black;
+        width: 100vw;
+        height: 50px;
+        color: #E9ECF4;
+        position: absolute;
+        bottom: -460px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-texto p {
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
 
 
 

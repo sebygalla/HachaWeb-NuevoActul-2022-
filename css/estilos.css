@@ -13,9 +13,8 @@ body {
     background: white;
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  
+   
 }
 
 
@@ -100,8 +99,17 @@ header .redes-sociales a:hover {
 
 
 .container{
+  
     min-height: 100vh;
     position: relative;
+   
+}
+
+
+#footer{
+    min-height: 100vh;
+    position: relative;
+    
 }
 
 
@@ -110,11 +118,13 @@ header .redes-sociales a:hover {
 
 .hero-main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 100px;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 50px);
     overflow: hidden;
     background:  #828896a1;
 
@@ -161,13 +171,6 @@ header .redes-sociales a:hover {
    
    
 }
-
-
-
-
-
-
-
 
 .hero-textos h1 {
     font-size: 5rem;
@@ -242,7 +245,7 @@ header .redes-sociales a:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	gap: 25px;
+	gap: 50px;
 	margin-top: 10rem;
 	margin-bottom: 150px;
 	margin-left: auto;
@@ -302,8 +305,8 @@ header .redes-sociales a:hover {
 }
 
 .card-perfil:hover {
-	transform: translateY(-1rem);
-    transition: all .2s ease-in-out;
+	transform: translateY(-2rem);
+    transition: all .3s ease-in-out;
 	
 
 }
@@ -314,8 +317,8 @@ header .redes-sociales a:hover {
 	margin: 20px;
 	border: none;
 	background: #ee0979;
-	font-size: 12px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 500;
 	cursor: pointer;
 	border-radius: 8px;
 	transition: all 300ms;
@@ -335,15 +338,253 @@ header .redes-sociales a:hover {
 
 
 
+
+
+
+
+/*Cards*/
+
+
+.container_cards {
+
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+    gap: 50px;
+
+
+
+
+
+
+
+}
+
+.card {
+	width: 250px;
+	margin: 10px;
+	transition: 300ms;
+}
+
+.card:hover {
+	width: 350px;
+}
+
+.card .cover {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+
+.card .cover img {
+	width: 250px;
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 40px;
+	z-index: 1;
+	filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+	transition: all 400ms;
+}
+
+.card:hover .cover img {
+	top: 0;
+	filter: none;
+
+}
+
+.card:hover .img__back {
+	bottom: -40px;
+}
+
+.card .img__back {
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	bottom: -80px;
+	left: 0;
+	background-size: cover;
+	border-radius: 20px;
+	transition: all 300ms;
+}
+
+.card:nth-of-type(1) .img__back {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.card:nth-of-type(2) .img__back {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.card:nth-of-type(3) .img__back {
+	background-color: rgba(128, 128, 128, 0.281);
+}
+
+.card .description {
+	background: white;
+	margin-top: -10px;
+	padding: 20px;
+	border-radius: 0px 0px 20px 20px;
+	transition: all 300ms;
+}
+
+.card:hover .description {
+	padding: 40px;
+}
+
+.card .description h2 {
+	margin-top: 10px;
+
+}
+
+.card .description p {
+	margin-top: 10px;
+
+}
+
+.card .description input {
+	padding: 10px 40px;
+	margin-top: 20px;
+	border: none;
+	background: #ee0979;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: all 300ms;
+
+
+}
+
+.card .description input:hover {
+	background: #f80e2dd5;
+
+}
+
+/* Discos */
+
+.card--discos {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	margin-top: -20px;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+.card--perfil {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 450px;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgb(201, 201, 201);
+
+
+}
+
+.card--info {
+	text-align: justify;
+	padding: 5px 25px;
+	color: rgb(97, 90, 96);
+	margin: 10px 0px 0px 0px;
+}
+
+.card--info p {
+	font-size: 12px;
+	text-align: justify;
+}
+
+.card--nombre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.card--nombre h2 {
+	font-size: 20px;
+	font-weight: 900;
+	margin: 30px 0px 0px 0px;
+
+
+
+}
+
+.card--nombre img {
+	width: 250px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 5px rgb(128, 125, 125);
+	transition: 0.1s ease-out;
+
+
+}
+
+.card--nombre img:hover {
+	transform: translateY(-5px);
+	width: 260px;
+
+}
+
+
+.card--enlace {
+	padding: 10px;
+	margin: 20px;
+	border: none;
+	background: #ee0979;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: all 300ms;
+	width: 100%;
+
+
+
+}
+
+.card--enlace a {
+	color: white;
+	text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER CASSETTE*/
 
 #footer .cassette{
-    width: 300px;
+    width: 350px;
     position:absolute;
     margin-top: auto;
-    bottom: -1500px;
+    bottom: -58px;
     z-index: 1;
 }
+
+
 
 .footer-container{
 
@@ -358,20 +599,27 @@ header .redes-sociales a:hover {
    
    
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items:baseline;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     position: absolute;
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin-top: 500px;
     
 
 }
 
+.footer-container a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
 .footer-logo{
     width: 100px;
-  
+ 
+   
+    
 }
 
 .footer-link{
@@ -398,6 +646,28 @@ header .redes-sociales a:hover {
 .footer-redes i{
     color: #E9ECF4;
     margin-top: 10px;
+    
 }
 
+.footer-redes p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer-texto{
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    color: #E9ECF4;
+    position: absolute;
+    bottom: -260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-texto p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
 
