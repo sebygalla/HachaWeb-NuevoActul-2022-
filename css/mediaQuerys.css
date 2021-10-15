@@ -322,14 +322,20 @@
     header .menu {
         position: absolute;
         top: 50px;
-        background: black;
         width: 100%;
         height: 100vh;
         z-index: 999;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: gray;
+        background: #ee0979;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
         transform: translateY(0%);
         transition: all .7s ease-in;
         overflow: hidden;
@@ -666,22 +672,29 @@
     header .menu {
         position: absolute;
         top: 50px;
-        background: black;
         width: 100%;
         height: 100vh;
-        z-index: 1;
+        z-index: 999;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: gray;
-        transform: translateX(100%);
-        transition: all .5s ease-in;
+        background: #ee0979;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        transform: translateY(0%);
+        transition: all .7s ease-in;
+        overflow: hidden;
 
     }
 
     header .menu-on {
-        transform: translateX(0%);
-        overflow: hidden;
+        transform: translateY(-108%);
+        z-index: 1;
     }
 
 
