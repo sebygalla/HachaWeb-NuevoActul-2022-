@@ -564,10 +564,10 @@ header .redes-sociales a:hover {
 /*FOOTER CASSETTE*/
 
 #footer .cassette {
-	width: 350px;
+	width: 400px;
 	position: absolute;
 	margin-top: auto;
-	bottom: -58px;
+	bottom: -1200px;
 	z-index: 1;
 }
 
@@ -591,8 +591,9 @@ header .redes-sociales a:hover {
 	flex-wrap: wrap;
 	position: absolute;
 	width: 100%;
-	height: 400px;
-	margin-top: 500px;
+	height: 70vh;
+	margin-top: 1600px;
+	
 
 
 }
@@ -609,11 +610,14 @@ header .redes-sociales a:hover {
 
 }
 
+
+/*FOOTER COMUNIDAD*/
+
 .footer-link {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-start;
+	justify-content:center
 }
 
 .footer-link a {
@@ -628,12 +632,14 @@ header .redes-sociales a:hover {
 
 
 /*FOOTER NOSOTROS*/
+
 .footer-nosotros {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-around;
 	margin-top: -58px;
+	
 	
 }
 
@@ -650,10 +656,14 @@ header .redes-sociales a:hover {
 }
 
 
+/*FOOTER REDES*/
+
+
+
 .footer-redes {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	margin-top: 61px;
 
 }
@@ -686,7 +696,7 @@ header .redes-sociales a:hover {
 	height: 50px;
 	color: #E9ECF4;
 	position: absolute;
-	bottom: -260px;
+	bottom: -1450px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
