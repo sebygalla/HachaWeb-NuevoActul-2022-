@@ -396,13 +396,16 @@
     }
 
     .hero-img{
-        width: 260px;
+        width: 300px;
     }
 
     .hero-textos{
         margin-top: -20px;
         text-align: center;
+        letter-spacing: 1px;
     }
+
+  
 
     .action{
         display: block;
