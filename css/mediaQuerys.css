@@ -388,8 +388,46 @@
 
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 400px) {
 
+    .hero-main{
+        flex-direction: column-reverse;
+    }
+
+    .hero-img{
+        width: 260px;
+    }
+
+    .hero-textos{
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    .action{
+        display: block;
+        width: 100%;
+    }
+
+
+    /*Nosotros*/
+
+    .container-cards .card{
+        width: 80%;
+        margin-bottom: 10px;
+        
+    }
+
+    .card input{
+        display: block;
+        width: 100%;
+    }
+
+    .description {
+        text-align: justify;
+    }
+
+
+ 
     /*FOOTER DESCRIPTION*/
 
     .footer-description {
@@ -404,9 +442,9 @@
     /*FOOTER CASSETTE*/
 
     #footer .cassette {
-        width: 300px;
+        width: 250px;
         position: absolute;
-        top: -250px;
+        top: -210px;
         left: 50px;
         z-index: 1;
     }
