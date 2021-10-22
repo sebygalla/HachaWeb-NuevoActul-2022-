@@ -72,7 +72,7 @@ header .toggle {
 /*REDES SOCIALES*/
 
 header .redes-sociales {
-	font-size: 1rem;
+	font-size: 20px;
 }
 
 header .redes-sociales a {
@@ -142,10 +142,14 @@ header .redes-sociales a:hover {
 	margin-top: 20px;
 	max-width: 992px;
 	min-width: 100px;
+	
+
+	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323) )contrast(110%);
+
 }
 
 .logo {
-	width: 25px;
+	width: 30px; 
 }
 
 /*TEXTO PORTADA PRINCIPAL*/
@@ -224,6 +228,14 @@ header .redes-sociales a:hover {
 
 
 
+/*Boton ir arriba*/
+
+
+
+
+
+
+
 /* DISCOS */
 
 .card-discos {
@@ -292,7 +304,7 @@ header .redes-sociales a:hover {
 }
 
 .card-perfil:hover {
-	transform: translateY(-2rem);
+	transform: translateY(-8px);
 	transition: all .3s ease-in-out;
 
 
@@ -434,6 +446,8 @@ header .redes-sociales a:hover {
 }
 
 .card .description input {
+	display: block;
+	width: 100%;
 	padding: 10px 40px;
 	margin-top: 20px;
 	border: none;

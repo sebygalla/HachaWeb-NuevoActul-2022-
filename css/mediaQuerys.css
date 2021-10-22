@@ -139,7 +139,7 @@
         height: auto;
         max-width: 350px;
         min-width: 100px;
-        margin-top: -20px;
+        margin-top: -60px;
 
     }
 
@@ -404,7 +404,7 @@
     }
 
     .hero-textos{
-        margin-top: -20px;
+       
         text-align: center;
         letter-spacing: 1px;
     }
@@ -482,11 +482,11 @@
     }
 
     .hero-img{
-        width: 260px;
+        width: 280px;
     }
 
     .hero-textos{
-        margin-top: -20px;
+        margin-top: -30px;
         text-align: center;
     }
 
