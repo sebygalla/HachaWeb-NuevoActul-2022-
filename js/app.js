@@ -32,13 +32,17 @@ addEventListener('DOMContentLoaded', () => {
     const boton_ir_arriba = document.querySelector('#ir_arriba_boton')
     const barra_indicador = document.querySelector('.indicador_scroll')
 
+    /*OBTENER LA CANTIDAD DE PIXELES QUE SE DESPLAZAN EN EL SCROLL*/
+
     const obtener_pixeles_inicio = () => document.documentElement.scrollTop || document.body.scrollTop
+
+    /*VERIFICAR SI EL SCROLL ESTA EN EL PUNTO DE INICIO*/
 
     const irArriba = () => {
 
         if (obtener_pixeles_inicio() > 0) {
             requestAnimationFrame(irArriba)
-            scrollTo(0, obtener_pixeles_inicio() - (obtener_pixeles_inicio() / 2))
+            scrollTo(0, obtener_pixeles_inicio() - (obtener_pixeles_inicio() / 1))
         }
     }
 
@@ -51,7 +55,7 @@ addEventListener('DOMContentLoaded', () => {
         }
 
         let alto = document.documentElement.scrollHeight - document.documentElement.clientHeight
-        
+
         let avance_scroll = (obtener_pixeles_inicio() / alto) * 100
         barra_indicador.style.width = avance_scroll + '%'
     }

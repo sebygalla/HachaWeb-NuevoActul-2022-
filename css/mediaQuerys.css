@@ -115,8 +115,62 @@
 
 
 
+
+    /*BARRA SUPERIOR DE CARGA SCROLL*/
+
+    #ir_arriba_boton {
+        position: fixed;
+        z-index: 1000;
+        right: 10px;
+        bottom: 40px;
+        background-color: rgb(25, 121, 169);
+        width: 40px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        transition: all .2s;
+        font-size: 9px;
+
+    }
+
+    #ir_arriba_boton:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+
+    }
+
+    .indicador_contenedor {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 7px;
+        z-index: 1001;
+
+    }
+
+    .indicador_scroll {
+        height: 100%;
+        width: 0;
+        background-color: rgb(25, 121, 169);
+    }
+
+    .ocultar {
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .mostrar {
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+
+
     /*CONTENIDO PRINCIPAL*/
-    /*********************/
+
 
     .hero-main {
         display: flex;
@@ -513,6 +567,19 @@
         text-align: justify;
     }
 
+    /*Nosotros*/
+
+    .nosotros-description {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: 1fr;
+        background-color: white;
+        margin-top: 20px;
+
+    }
+
+
 
 
     /*FOOTER DESCRIPTION*/
@@ -550,55 +617,6 @@
 
 
 
-    /*BARRA SUPERIOR DE CARGA SCROLL*/
-
-    #ir_arriba_boton {
-        position: fixed;
-        z-index: 1000;
-        right: 10px;
-        bottom: 40px;
-        background-color: rgb(25, 121, 169);
-        width: 54px;
-        height: 54px;
-        color: white;
-        text-align: center;
-        border-radius: 50%;
-        transition: all .2s;
-        font-size: 12px;
-
-    }
-
-    #ir_arriba_boton:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-
-    }
-
-    .indicador_contenedor {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        height: 7px;
-        z-index: 1001;
-
-    }
-
-    .indicador_scroll {
-        height: 100%;
-        width: 0;
-        background-color: rgb(25, 121, 169);
-    }
-
-    .ocultar {
-        opacity: 0;
-        visibility: hidden;
-
-    }
-
-    .mostrar {
-        opacity: 1;
-        visibility: visible;
-    }
 
 
 
