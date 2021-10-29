@@ -613,7 +613,8 @@
     }
 
     .hero-img {
-        width: 300px;
+        width: 400px;
+        margin-top: 50px;
     }
 
     .hero-textos {
