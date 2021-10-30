@@ -62,5 +62,4 @@ addEventListener('DOMContentLoaded', () => {
 
     boton_ir_arriba.addEventListener('click', irArriba)
     window.addEventListener('scroll', indicarScroll)
-    
-}
+})
