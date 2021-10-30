@@ -56,7 +56,7 @@ addEventListener('DOMContentLoaded', () => {
 
         let alto = document.documentElement.scrollHeight - document.documentElement.clientHeight
 
-        let avance_scroll = (obtener_pixeles_inicio() / alto) * 100
+        let avance_scroll = (obtener_pixeles_inicio() / alto) * 10
         barra_indicador.style.width = `${avance_scroll}%`     
     }
 
