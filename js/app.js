@@ -34,7 +34,7 @@ addEventListener('DOMContentLoaded', () => {
 
     /*OBTENER LA CANTIDAD DE PIXELES QUE SE DESPLAZAN EN EL SCROLL*/
 
-    const obtener_pixeles_inicio = () => document.documentElement.scrollTop || document.body.scrollTop
+    const obtener_pixeles_inicio = () => document.documentElement.scrollTop || document.window.scrollTop
 
     /*VERIFICAR SI EL SCROLL ESTA EN EL PUNTO DE INICIO*/
 
@@ -56,7 +56,7 @@ addEventListener('DOMContentLoaded', () => {
 
         let alto = document.documentElement.scrollHeight - document.documentElement.clientHeight
 
-        let avance_scroll = (obtener_pixeles_inicio() / alto) * 10
+        let avance_scroll = (obtener_pixeles_inicio() / alto) * 100
         barra_indicador.style.width = `${avance_scroll}%`     
     }
 
