@@ -34,7 +34,7 @@ addEventListener('DOMContentLoaded', () => {
 
     /*OBTENER LA CANTIDAD DE PIXELES QUE SE DESPLAZAN EN EL SCROLL*/
 
-    const obtener_pixeles_inicio = () => document.documentElement.scrollTop || document.window.scrollTop
+    const obtener_pixeles_inicio = () => document.documentElement.scrollTop || document.body.scrollTop
 
     /*VERIFICAR SI EL SCROLL ESTA EN EL PUNTO DE INICIO*/
 
@@ -62,4 +62,5 @@ addEventListener('DOMContentLoaded', () => {
 
     boton_ir_arriba.addEventListener('click', irArriba)
     window.addEventListener('scroll', indicarScroll)
-})
+    
+}
