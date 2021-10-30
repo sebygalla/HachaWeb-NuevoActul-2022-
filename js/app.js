@@ -54,10 +54,10 @@ addEventListener('DOMContentLoaded', () => {
             boton_ir_arriba.className = 'ocultar'
         }
 
-        let alto = document.documentElement.scrollHeight - document.documentElement.clientHeight
+        let alto = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
         let avance_scroll = (obtener_pixeles_inicio() / alto) * 100
-        barra_indicador.style.width = `${avance_scroll}%`     
+        barra_indicador.style.width = `${avance_scroll}%` ;    
     }
 
     boton_ir_arriba.addEventListener('click', irArriba)

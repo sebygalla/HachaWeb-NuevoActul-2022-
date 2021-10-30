@@ -203,14 +203,15 @@ header .redes-sociales a:hover {
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	justify-content: center;
 
 
 }
 
 .hero-textos h1 {
-	font-size: 5rem;
+	font-size: 80px;
 	font-weight: 900;
-	line-height: 45px;
+	line-height: 65px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: -5px;
 	-webkit-text-stroke: 2.5px black;
@@ -219,7 +220,7 @@ header .redes-sociales a:hover {
 }
 
 .hero-textos h3 {
-	font-size: 1.5rem;
+	font-size: 30px;
 	font-weight: 600;
 	margin: 10px 0px;
 	color: #da251c;
@@ -227,10 +228,7 @@ header .redes-sociales a:hover {
 	font-family: 'Roboto', sans-serif;
 }
 
-.hero-textos .span2 {
-	font-size: 65px;
-	letter-spacing: 1px;
-}
+
 
 
 
@@ -240,8 +238,8 @@ header .redes-sociales a:hover {
 /* BOTON reutilizable*/
 
 .action {
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 20px;
+	font-weight: 100;
 	text-decoration: none;
 	border-radius: 3px;
 	display: inline-block;
@@ -256,6 +254,7 @@ header .redes-sociales a:hover {
 .action-red {
 	color: white;
 	background-color: #da251c;
+	
 }
 
 
