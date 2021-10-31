@@ -103,12 +103,13 @@ header .redes-sociales a:hover {
 	right: 25px;
 	bottom: 25px;
 	background-color: rgb(25, 121, 169);
-	width: 64px;
-	height: 64px;
+	width: 50px;
+	height: 50px;
 	color: white;
 	text-align: center;
 	border-radius: 50%;
 	transition: all .2s;
+	font-size: 11px;
 
 }
 
@@ -118,31 +119,7 @@ header .redes-sociales a:hover {
 
 }
 
-.indicador_contenedor {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	height: 7px;
-	z-index: 1001;
 
-}
-
-.indicador_scroll {
-	height: 100%;
-	width: 0;
-	background-color: rgb(25, 121, 169);
-}
-
-.ocultar {
-	opacity: 0;
-	visibility: hidden;
-
-}
-
-.mostrar {
-	opacity: 1;
-	visibility: visible;
-}
 
 
 
