@@ -42,7 +42,7 @@ addEventListener('DOMContentLoaded', () => {
 
         if (obtener_pixeles_inicio() > 0) {
             requestAnimationFrame(irArriba)
-            scrollTo(0, obtener_pixeles_inicio() - (obtener_pixeles_inicio() / 1))
+            scrollTo(0, obtener_pixeles_inicio() - (obtener_pixeles_inicio() / 10))
         }
     }
 
