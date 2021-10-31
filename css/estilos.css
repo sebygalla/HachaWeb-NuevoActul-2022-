@@ -95,7 +95,7 @@ header .redes-sociales a:hover {
 }
 
 
-/*BARRA SUPERIOR DE CARGA SCROLL*/
+/*IR ARRIBA*/
 
 #ir_arriba_boton {
 	position: fixed;
@@ -108,8 +108,9 @@ header .redes-sociales a:hover {
 	color: white;
 	text-align: center;
 	border-radius: 50%;
-	transition: all .2s;
+	transition: all .2s ease-in-out;
 	font-size: 11px;
+	
 
 }
 
@@ -139,7 +140,8 @@ header .redes-sociales a:hover {
 	width: 100%;
 	height: calc(100vh - 50px);
 	overflow: hidden;
-	background: #828896a1;
+	background: #23232654;
+	
 
 
 
@@ -187,21 +189,19 @@ header .redes-sociales a:hover {
 
 .hero-textos h1 {
 	font-size: 80px;
-	font-weight: 900;
+	font-weight: 600;
 	line-height: 65px;
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: -5px;
-	-webkit-text-stroke: 2.5px black;
-	text-shadow: 8px 5px 2px rgba(0, 0, 0, 0.253);
-	color: white;
+	letter-spacing: 0px;
+	color: #E9ECF4;
 }
 
 .hero-textos h3 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 600;
-	margin: 10px 0px;
-	color: #da251c;
-	box-shadow: 2px black;
+	margin-top: -20px;
+	line-height: 75px;
+	color: black;
 	font-family: 'Roboto', sans-serif;
 }
 

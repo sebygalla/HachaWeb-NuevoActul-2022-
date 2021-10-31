@@ -35,3 +35,11 @@ btnArriba.addEventListener('click', () => {
 
     
 });
+
+window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        btnArriba.style.display = 'block';
+    } else {
+        btnArriba.style.display = 'none';
+    }
+});

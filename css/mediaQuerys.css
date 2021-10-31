@@ -116,55 +116,8 @@
 
 
 
-    /*BARRA SUPERIOR DE CARGA SCROLL*/
+    /*IR ARRIBA*/
 
-    #ir_arriba_boton {
-        position: fixed;
-        z-index: 1000;
-        right: 15px;
-        bottom: 10px;
-        background-color: rgb(25, 121, 169);
-        width: 40px;
-        height: 40px;
-        color: white;
-        text-align: center;
-        border-radius: 50%;
-        transition: all .2s;
-        font-size: 9px;
-
-    }
-
-    #ir_arriba_boton:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-
-    }
-
-    .indicador_contenedor {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        height: 7px;
-        z-index: 1001;
-
-    }
-
-    .indicador_scroll {
-        height: 100%;
-        width: 0;
-        background-color: rgb(25, 121, 169);
-    }
-
-    .ocultar {
-        opacity: 0;
-        visibility: hidden;
-
-    }
-
-    .mostrar {
-        opacity: 1;
-        visibility: visible;
-    }
 
 
 
@@ -199,6 +152,10 @@
 
 
 
+
+
+
+
     /*TEXTO PORTADA PRINCIPAL*/
 
     .hero-textos {
@@ -206,36 +163,28 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: flex-start;
+        justify-content: center;
+
 
     }
 
     .hero-textos h1 {
-        font-size: 3rem;
-        font-weight: 900;
-        line-height: 35px;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 55px;
         font-family: 'Roboto', sans-serif;
-        letter-spacing: -5px;
-        -webkit-text-stroke: 2.5px black;
-        text-shadow: 8px 5px 2px rgba(0, 0, 0, 0.253);
-        color: white;
+        letter-spacing: 0px;
+        color: #E9ECF4;
     }
 
     .hero-textos h3 {
-        font-size: 1rem;
+        font-size: 25px;
         font-weight: 600;
-        margin: 10px 0px;
-        color: #da251c;
-        box-shadow: 2px black;
+        margin-top: -20px;
+        line-height: 75px;
+        color: black;
         font-family: 'Roboto', sans-serif;
     }
-
-    .hero-textos .span2 {
-        font-size: 45px;
-        letter-spacing: -2px;
-    }
-
-
-
 
 
 
@@ -456,6 +405,41 @@
 
 
 
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+
+
+    }
+
+    .hero-textos h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 55px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0px;
+        color: #E9ECF4;
+    }
+
+    .hero-textos h3 {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: -20px;
+        line-height: 75px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
+
+
+
 
 }
 
@@ -476,38 +460,40 @@
 
     }
 
-    .hero-textos {
 
-        text-align: justify;
-        letter-spacing: 4px;
-        margin-top: -50px;
+
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+
+
     }
 
-
     .hero-textos h1 {
-        font-size: 35x;
-        font-weight: 900;
-        line-height: 45px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
         font-family: 'Roboto', sans-serif;
-        letter-spacing: -5px;
-        -webkit-text-stroke: 2.5px black;
-        text-shadow: 8px 5px 2px rgba(0, 0, 0, 0.253);
-        color: white;
+        letter-spacing: 0px;
+        color: #E9ECF4;
     }
 
     .hero-textos h3 {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 600;
-        margin: 10px 0px;
-        color: #da251c;
-        box-shadow: 2px black;
+        margin-top: -20px;
+        line-height: 75px;
+        color: black;
         font-family: 'Roboto', sans-serif;
     }
 
-    .hero-textos .span2 {
-        font-size: 60px;
-        letter-spacing: 1px;
-    }
 
 
 
@@ -595,10 +581,45 @@
         width: 280px;
     }
 
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
     .hero-textos {
-        margin-top: -30px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+
     }
+
+    .hero-textos h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0px;
+        color: #E9ECF4;
+    }
+
+    .hero-textos h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: -20px;
+        line-height: 75px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+   
+
+
+
+
+
+
 
     .action {
         display: block;
@@ -658,32 +679,6 @@
         align-items: center;
     }
 
-
-    /*IR ARRIBA*/
-
-
-
-    #ir_arriba_boton {
-        position: fixed;
-        z-index: 1000;
-        right: 15px;
-        bottom: 25px;
-        background-color: rgb(25, 121, 169);
-        width: 50px;
-        height: 50px;
-        color: white;
-        text-align: center;
-        border-radius: 50%;
-        transition: all .2s;
-        font-size: 11px;
-
-    }
-
-    #ir_arriba_boton:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-
-    }
 
 
 
