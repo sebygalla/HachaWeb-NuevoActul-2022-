@@ -364,7 +364,7 @@ header .redes-sociales a:hover {
 
 
 
-/*Cards*/
+/*Cards nosotros*/
 
 
 .container-cards {
@@ -540,9 +540,10 @@ header .redes-sociales a:hover {
 }
 
 .card-nombre h2 {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 900;
 	margin: 30px 0px 0px 0px;
+	font-family: 'Press Start 2P', cursive;
 
 
 
