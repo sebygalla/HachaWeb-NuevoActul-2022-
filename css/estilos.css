@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Press+Start+2P&display=swap');
+
+
 html {
 	scroll-behavior: smooth;
 }
@@ -13,7 +16,6 @@ body {
 	background: white;
 	color: #000;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 
 }
 
@@ -140,6 +142,7 @@ header .redes-sociales a:hover {
 	width: 100%;
 	height: calc(100vh - 50px);
 	overflow: hidden;
+	
 	background: #23232654;
 	
 
@@ -165,6 +168,7 @@ header .redes-sociales a:hover {
 	margin-top: 20px;
 	max-width: 992px;
 	min-width: 100px;
+	margin-left: 5px;
 
 
 	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
@@ -183,26 +187,15 @@ header .redes-sociales a:hover {
 	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: center;
+	margin-right: 10px;
 
 
 }
 
 .hero-textos h1 {
-	font-size: 80px;
-	font-weight: 600;
-	line-height: 65px;
-	font-family: 'Roboto', sans-serif;
-	letter-spacing: 0px;
+	font-size: 50px;
 	color: #E9ECF4;
-}
-
-.hero-textos h3 {
-	font-size: 25px;
-	font-weight: 600;
-	margin-top: -20px;
-	line-height: 75px;
-	color: black;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Press Start 2P', cursive;
 }
 
 
@@ -216,14 +209,21 @@ header .redes-sociales a:hover {
 
 .action {
 	font-size: 20px;
-	font-weight: 100;
 	text-decoration: none;
 	border-radius: 3px;
-	display: inline-block;
-	padding: 6px 9px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 
+}
+
+.action i{
+	font-size: 25px;
+	padding: 6px;
 }
 
 

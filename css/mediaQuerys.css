@@ -146,7 +146,7 @@
         height: auto;
         max-width: 350px;
         min-width: 100px;
-        margin-top: -60px;
+        margin-top: 10px;
 
     }
 
@@ -169,59 +169,32 @@
     }
 
     .hero-textos h1 {
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 55px;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0px;
-        color: #E9ECF4;
-    }
-
-    .hero-textos h3 {
         font-size: 25px;
-        font-weight: 600;
-        margin-top: -20px;
-        line-height: 75px;
-        color: black;
-        font-family: 'Roboto', sans-serif;
+        color: #E9ECF4;
+        margin: 10px;
     }
-
-
-
-
-
-
 
 
     /* BOTON reutilizable*/
 
     .action {
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 15px;
         text-decoration: none;
         border-radius: 3px;
-        display: inline-block;
-        padding: 6px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 
     }
 
-    .action-red {
-        color: white;
-        background-color: #da251c;
+    .action i {
+        font-size: 20px;
+        padding: 5px;
     }
-
-
-    .action-red:hover {
-        background-color: #C43535;
-    }
-
-    .action-red:active {
-        background-color: #A62828;
-    }
-
-
 
 
 
@@ -386,13 +359,12 @@
         justify-content: center;
     }
 
-
-
-
     .footer-texto p {
         font-size: 12px;
         font-family: 'Roboto', sans-serif;
     }
+
+
 }
 
 
@@ -400,6 +372,10 @@
 
     .hero-main {
         flex-direction: column-reverse;
+    }
+
+    .hero-img{
+        width: 400px;
     }
 
 
@@ -418,24 +394,31 @@
     }
 
     .hero-textos h1 {
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 55px;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0px;
+        font-size: 40px;
         color: #E9ECF4;
+       
     }
 
-    .hero-textos h3 {
-        font-size: 25px;
-        font-weight: 600;
-        margin-top: -20px;
-        line-height: 75px;
-        color: black;
-        font-family: 'Roboto', sans-serif;
+    /* BOTON reutilizable*/
+
+    .action {
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
     }
 
-
+    .action i {
+        font-size: 20px;
+        padding: 8px;
+    }
 
 
 
@@ -461,9 +444,6 @@
     }
 
 
-
-
-
     /*TEXTO PORTADA PRINCIPAL*/
 
     .hero-textos {
@@ -472,7 +452,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        
+
 
 
     }
@@ -481,31 +461,34 @@
         font-size: 40px;
         font-weight: 700;
         line-height: 35px;
-        font-family: 'Roboto', sans-serif;
         letter-spacing: 0px;
         color: #E9ECF4;
         text-align: center;
-    }
+        margin: 10px;
 
-    .hero-textos h3 {
-        font-size: 20px;
-        font-weight: 600;
-        text-align: center;
-        margin-top: -20px;
-        line-height: 75px;
-        color: black;
-        font-family: 'Roboto', sans-serif;
     }
 
 
 
-
+    /* BOTON reutilizable*/
 
     .action {
-        display: inline-block;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         text-align: center;
-        
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .action i {
+        font-size: 20px;
+        padding: 8px;
     }
 
 
@@ -599,35 +582,33 @@
     }
 
     .hero-textos h1 {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 35px;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0px;
+        font-size: 30px;
+        text-align: center;
         color: #E9ECF4;
-    }
-
-    .hero-textos h3 {
-        font-size: 20px;
-        font-weight: 600;
-        margin-top: -20px;
-        line-height: 75px;
-        color: black;
-        font-family: 'Roboto', sans-serif;
+        margin: 10px;
     }
 
 
-   
 
-
-
-
-
-
+    /* BOTON reutilizable*/
 
     .action {
-        display: block;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .action i {
+        font-size: 18px;
+        padding: 6px;
     }
 
 
