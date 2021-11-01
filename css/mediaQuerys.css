@@ -374,7 +374,7 @@
         flex-direction: column-reverse;
     }
 
-    .hero-img{
+    .hero-img {
         width: 400px;
     }
 
@@ -394,15 +394,15 @@
     }
 
     .hero-textos h1 {
-        font-size: 40px;
+        font-size: 25px;
         color: #E9ECF4;
-       
+
     }
 
     /* BOTON reutilizable*/
 
     .action {
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         border-radius: 3px;
         display: flex;
@@ -417,7 +417,7 @@
 
     .action i {
         font-size: 20px;
-        padding: 8px;
+        padding: 6px;
     }
 
 
@@ -436,10 +436,12 @@
 
     .hero-main {
         flex-direction: column-reverse;
+        
     }
 
     .hero-img {
         width: 400px;
+        
 
     }
 
@@ -458,10 +460,7 @@
     }
 
     .hero-textos h1 {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 35px;
-        letter-spacing: 0px;
+        font-size: 25px;
         color: #E9ECF4;
         text-align: center;
         margin: 10px;
@@ -473,7 +472,7 @@
     /* BOTON reutilizable*/
 
     .action {
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         border-radius: 3px;
         display: flex;
@@ -488,7 +487,7 @@
 
     .action i {
         font-size: 20px;
-        padding: 8px;
+        padding: 6px;
     }
 
 
@@ -569,6 +568,7 @@
     }
 
 
+
     /*TEXTO PORTADA PRINCIPAL*/
 
     .hero-textos {
@@ -579,13 +579,15 @@
         justify-content: center;
 
 
+
     }
 
     .hero-textos h1 {
-        font-size: 30px;
-        text-align: center;
+        font-size: 25px;
         color: #E9ECF4;
+        text-align: center;
         margin: 10px;
+
     }
 
 
@@ -607,7 +609,7 @@
     }
 
     .action i {
-        font-size: 18px;
+        font-size: 20px;
         padding: 6px;
     }
 

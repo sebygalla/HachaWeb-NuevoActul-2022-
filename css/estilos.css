@@ -171,9 +171,11 @@ header .redes-sociales a:hover {
 	margin-left: 5px;
 
 
+
 	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 
 }
+
 
 .logo {
 	width: 30px;
@@ -245,114 +247,49 @@ header .redes-sociales a:hover {
 
 
 
-
-
-
-/*Boton ir arriba*/
-
-
-
-
-
-
-
-/* DISCOS */
-
-.card-discos {
-	display: flex;
+.contenido-nosotros{
+	background: #C43535;
 	width: 100%;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 50px;
-	margin-top: 10rem;
-	margin-bottom: 150px;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1200px;
+	height: max-content;
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
-.card-perfil {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	width: 300px;
-	height: 450px;
-	text-align: center;
-	box-shadow: 2px 2px 5px rgb(201, 201, 201);
-
-
-}
-
-.card-info {
-	text-align: justify;
-	padding: 5px 25px;
-	color: rgb(97, 90, 96);
-	margin: 10px 0px 0px 0px;
-}
-
-.card-info p {
-	font-size: 12px;
-	text-align: justify;
-}
-
-.card-nombre {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 5px;
-}
-
-.card-nombre h2 {
-	font-size: 20px;
-	font-weight: 900;
-	margin: 30px 0px 0px 0px;
-
-
-
-}
-
-.card-nombre img {
-	width: 250px;
-	margin-top: 20px;
-	box-shadow: 2px 2px 5px rgb(128, 125, 125);
-	transition: 0.1s ease-out;
-
-
-}
-
-.card-perfil:hover {
-	transform: translateY(-8px);
-	transition: all .3s ease-in-out;
-
-
-}
-
-
-.card-enlace {
-	padding: 10px;
-	margin: 20px;
-	border: none;
-	background: #ee0979;
-	font-size: 15px;
-	font-weight: 500;
-	cursor: pointer;
-	border-radius: 8px;
-	transition: all 300ms;
-	width: 100%;
-
-
-
-}
-
-.card-enlace a {
+.contenido-nosotros-texto h2{
+	font-size: 50px;
 	color: white;
-	text-decoration: none;
-
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	margin-top: 50px;
 
 }
+
+.contenido-nosotros-texto p{
+	font-size: 18px;
+	color: white;
+	text-align: justify;
+	margin: 10px;
+	margin-bottom: 50px;
+}
+
+.contenido-nosotros-imagen{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	
+}
+
+.contenido-nosotros-imagen img{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	
+}
+
+
+
 
 
 
@@ -492,6 +429,11 @@ header .redes-sociales a:hover {
 	background: #f80e2dd5;
 
 }
+
+
+
+
+
 
 /* Discos */
 
