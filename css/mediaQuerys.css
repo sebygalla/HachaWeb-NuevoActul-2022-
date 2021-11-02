@@ -461,10 +461,10 @@
     }
 
     .hero-textos h1 {
-        font-size: 35px;
+        font-size: 30px;
         color: #E9ECF4;
         text-align: center;
-        margin: 10px;
+        margin-top: -20px;
 
     }
 
