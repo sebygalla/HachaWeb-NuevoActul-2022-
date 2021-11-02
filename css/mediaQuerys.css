@@ -510,6 +510,13 @@
 
     }
 
+    /*Cards nosotros*/
+    
+    .container-cards{
+        margin-top: 20px;
+    }
+
+
     /*CONTENIDO NOSOTROS*/
 
     .contenido-nosotros {
@@ -549,6 +556,10 @@
 
 
     /*Nosotros*/
+
+    .container-cards{
+        margin-top: 20px;
+    }
 
     .container-cards .card {
         width: 80%;
