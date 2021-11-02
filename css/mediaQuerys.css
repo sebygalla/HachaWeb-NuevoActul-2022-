@@ -611,7 +611,8 @@
     }
 
     .hero-img {
-        width: 280px;
+        width: 300px;
+        margin-top: -50px;
     }
 
 
@@ -631,7 +632,7 @@
 
     .hero-textos h1 {
         font-size: 25px;
-        color: #E9ECF4;
+        color: white;
         text-align: center;
         margin: 10px;
 
