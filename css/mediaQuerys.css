@@ -454,12 +454,6 @@
 
     }
 
-    .division img {
-        width: 300px;
-        height: auto;
-        border: 50px solid transparent;
-
-    }
 
     /*Cards nosotros*/
 
@@ -601,8 +595,8 @@
         height: auto;
         transform: rotate(-20deg);
         position: absolute;
-        left: 110px;
-        top: 720px;
+        left: 80px;
+        top: 880px;
 
 
     }
