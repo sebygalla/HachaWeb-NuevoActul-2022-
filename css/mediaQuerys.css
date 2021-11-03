@@ -684,13 +684,38 @@
 
 
 
+
+
+
+    .division-2 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .division-2 h1 {
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 50px;
+        z-index: 9;
+
+
+    }
+
     .cassette-2 {
-        width: 350px;
+        width: 300px;
         position: absolute;
-        top: 3050px;
+        top: 3540px;
+        left: 20px;
 
         z-index: 1;
     }
+
+
 
 
 
@@ -765,7 +790,7 @@
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 386px) {
 
     .hero-main {
         flex-direction: column-reverse;
@@ -839,6 +864,32 @@
     .description {
         text-align: justify;
     }
+
+
+    /*DIVISION*/
+
+    .division {
+        width: 100%;
+        height: 190px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .contenido-nosotros-foto img {
+        width: 200px;
+        height: auto;
+        transform: rotate(-20deg);
+        position: absolute;
+        left: 40px;
+        top: 920px;
+
+
+    }
+
 
 
 
