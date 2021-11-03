@@ -273,9 +273,25 @@ header .redes-sociales a:hover {
 .contenido-nosotros{
 	background: #C43535;
 	width: 100%;
-	height: max-content;
+	height: 100vh;
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 1fr;
+	
+	
+}
+
+
+
+.contenido-nosotros-foto img{
+	width: 250px;
+	height: auto;
+	transform: rotate(-20deg);
+	margin: 100px;
+	position: absolute;
+	left: 0;
+	top: 580px;
+	
+	
 }
 
 .contenido-nosotros-texto h2{
@@ -288,17 +304,17 @@ header .redes-sociales a:hover {
 }
 
 .contenido-nosotros-texto p{
-	font-size: 18px;
+	font-size: 20px;
 	color: white;
 	text-align: justify;
-	margin: 10px;
-	margin-bottom: 50px;
+	margin: 100px ;
+	margin-top: 40px;
 }
 
 .contenido-nosotros-imagen{
 	width: 100%;
 	height: auto;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-bottom: 50px;
 	overflow: hidden;
 	
@@ -307,7 +323,7 @@ header .redes-sociales a:hover {
 .contenido-nosotros-imagen img{
 	width: 100%;
 	height: auto;
-	margin: 0;
+
 	
 }
 
@@ -624,7 +640,7 @@ header .redes-sociales a:hover {
 .footer-link {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 
 
@@ -641,6 +657,7 @@ header .redes-sociales a:hover {
 	font-size: 30px;
 	font-weight: 900;
 	color: #E9ECF4;
+	font-family: 'Press Start 2P', cursive;
 
 }
 
@@ -651,11 +668,12 @@ header .redes-sociales a:hover {
 .footer-nosotros {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .footer-nosotros h1 {
 	font-size: 30px;
+	font-family: 'Press Start 2P', cursive;
 	font-weight: 900;
 	color: #E9ECF4;
 }
@@ -679,6 +697,7 @@ header .redes-sociales a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 
 }
 
@@ -700,6 +719,7 @@ header .redes-sociales a:hover {
 
 .footer-redes h1 {
 	font-size: 30px;
+	font-family: 'Press Start 2P', cursive;
 	font-weight: 900;
 	color: #E9ECF4;
 }
