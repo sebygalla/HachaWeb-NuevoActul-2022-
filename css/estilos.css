@@ -112,7 +112,7 @@ header .redes-sociales a:hover {
 	border-radius: 50%;
 	transition: all .2s ease-in-out;
 	font-size: 11px;
-	
+
 
 }
 
@@ -142,9 +142,9 @@ header .redes-sociales a:hover {
 	width: 100%;
 	height: calc(100vh - 50px);
 	overflow: hidden;
-	
+
 	background: #23232654;
-	
+
 
 
 
@@ -223,7 +223,7 @@ header .redes-sociales a:hover {
 
 }
 
-.action i{
+.action i {
 	font-size: 25px;
 	padding: 6px;
 }
@@ -233,7 +233,7 @@ header .redes-sociales a:hover {
 .action-red {
 	color: white;
 	background-color: #da251c;
-	
+
 }
 
 
@@ -249,52 +249,68 @@ header .redes-sociales a:hover {
 
 /*DIVISION*/
 
-.division{
+.division {
 	width: 100%;
 	height: 40vh;
 	background-color: black;
 	display: flex;
-	align-items: center;		
+	align-items: center;
 	justify-content: center;
 
 }
 
-.division img{
+.division img {
 	width: 400px;
 	height: auto;
 	border: 1px solid transparent;
-	
+
 }
 
 
 
 /*CONTENIDO NOSOTROS*/
- 
-.contenido-nosotros{
+
+#nosotros-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenido-nosotros {
 	background: #C43535;
-	width: 100%;
+	width: 98%;
 	height: 100vh;
 	display: grid;
+	border-radius: 8px;
+	margin: 10px;
+	
 	grid-template-columns: 1fr;
-	
-	
+
 }
 
 
-
-.contenido-nosotros-foto img{
-	width: 250px;
+.contenido-nosotros-foto img {
+	width: 300px;
 	height: auto;
 	transform: rotate(-20deg);
 	margin: 100px;
 	position: absolute;
 	left: 0;
-	top: 580px;
-	
-	
+	top: 600px;
+
+
 }
 
-.contenido-nosotros-texto h2{
+.contenido-nosotros-texto {
+	margin-top: 100px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenido-nosotros-texto h2 {
 	font-size: 50px;
 	color: white;
 	font-family: 'Press Start 2P', cursive;
@@ -303,29 +319,17 @@ header .redes-sociales a:hover {
 
 }
 
-.contenido-nosotros-texto p{
+.contenido-nosotros-texto p {
 	font-size: 20px;
 	color: white;
 	text-align: justify;
-	margin: 100px ;
+	margin: 100px;
 	margin-top: 40px;
 }
 
-.contenido-nosotros-imagen{
-	width: 100%;
-	height: auto;
-	margin-top: 0px;
-	margin-bottom: 50px;
-	overflow: hidden;
-	
-}
 
-.contenido-nosotros-imagen img{
-	width: 100%;
-	height: auto;
 
-	
-}
+
 
 
 
@@ -351,7 +355,7 @@ header .redes-sociales a:hover {
 	justify-content: center;
 	align-items: center;
 	gap: 50px;
-	margin-top: 10rem;
+	
 	margin-bottom: 150px;
 	margin-left: auto;
 	margin-right: auto;
@@ -453,7 +457,7 @@ header .redes-sociales a:hover {
 	padding: 10px 40px;
 	margin-top: 20px;
 	border: none;
-	background: #ee0979;
+	background: #C43535;
 	color: white;
 	font-size: 14px;
 	font-weight: 700;
