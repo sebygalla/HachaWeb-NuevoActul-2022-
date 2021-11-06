@@ -1217,8 +1217,8 @@
     }
 
     .modal {
-        width: 50%;
-        height: 70%;
+        width: 70%;
+        height: 60%;
         background: #fff;
         text-align: center;
         display: flex;
