@@ -274,7 +274,7 @@
 
 
     .hero-img {
-        width: 70%;
+        width: 90%;
         height: auto;
         overflow: hidden;
 
@@ -514,8 +514,8 @@
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
-        justify-content: center;
-        gap: 50px;
+        justify-content: space-around;
+        gap: 160px;
         max-width: 992px;
     }
 
