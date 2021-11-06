@@ -510,12 +510,15 @@
 
     /*FOOTER DESCRIPTION*/
 
+   
+
+    
     .footer-description {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
-        justify-content: space-around;
-        gap: 160px;
+        justify-content: center;
+        gap: 50px;
         max-width: 992px;
     }
 
