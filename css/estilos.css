@@ -47,11 +47,7 @@ body {
 }
 
 
-.contenedor-loader .loading img{
-	width: 15%;
-	height: auto;
-	z-index: 99999;
-}
+
 
 
 /*BARRA DE NAVEGACION*/
