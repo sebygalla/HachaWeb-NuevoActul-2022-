@@ -223,7 +223,7 @@
     }
 
     .contenedor-loader img {
-        width: 12%;
+        width: 25%;
         height: auto;
         z-index: 99999;
     }
