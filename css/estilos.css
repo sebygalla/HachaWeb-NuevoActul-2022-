@@ -19,6 +19,27 @@ body {
 }
 
 
+/*Louder*/
+
+.contenedor-loader{
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	position: fixed;
+	z-index: 99999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.contenedor-loader img{
+	width: 12%;
+	height: auto;
+	z-index: 99999;
+}
+
 
 /*BARRA DE NAVEGACION*/
 

@@ -1,3 +1,12 @@
+/*loader*/
+
+window.onload = function() {
+    var loader = document.querySelector('.contenedor-loader');
+    loader.style.display = 'none';
+}
+
+
+
 /* MENU HAMBURGUESA*/
 
 const btnHamb = document.getElementById('hamb');
@@ -9,7 +18,6 @@ const enlace = document.querySelector('.menu');
 
 btnHamb.addEventListener('click', () => {
     menu.classList.toggle('menu-on')
-
 
 
 });
