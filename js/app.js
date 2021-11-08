@@ -52,6 +52,23 @@ window.addEventListener('scroll', () => {
     }
 });
 
+/*Navbar*/
+
+const navbar = document.getElementById('navbar');
+
+window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        navbar.style.opacity = '0.7';
+        navbar.style.borderBottom = '2px solid #da251c';
+       
+    } else {
+        navbar.style.opacity = '1';
+        navbar.style.borderBottom = 'none';
+    }
+});
+
+
+
 
 
 /*MODAL*/
