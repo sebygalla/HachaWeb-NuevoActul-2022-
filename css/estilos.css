@@ -35,7 +35,20 @@ body {
 }
 
 .contenedor-loader img{
-	width: 12%;
+	width: 15%;
+	height: auto;
+	z-index: 99999;
+}
+
+.contenedor-loader .guiño img{
+	width: 15%;
+	height: auto;
+	z-index: 99999;
+}
+
+
+.contenedor-loader .loading img{
+	width: 15%;
 	height: auto;
 	z-index: 99999;
 }
