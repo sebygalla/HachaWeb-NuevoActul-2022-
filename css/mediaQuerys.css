@@ -1294,8 +1294,35 @@
 }
 
 
+@media screen and (max-width: 450px) {
+
+    .contenedor-galeria {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .imagen img {
+        width: 100%;
+
+    }
+
+    .galeria {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: .5rem;
+        row-gap: .5rem;
+
+    }
 
 
+
+}
 
 
 @media screen and (max-width: 384px) {
