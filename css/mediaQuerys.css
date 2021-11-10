@@ -1644,7 +1644,7 @@
         width: 250px;
         position: absolute;
         top: -230px;
-        left: 20%;
+        left: 15%;
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 
     }
@@ -1670,10 +1670,13 @@
 
     .imagen {
         width: 100%;
+       
     }
 
     .imagen img {
-        width: 100%;
+        width: 100%
+        
+
 
     }
 
