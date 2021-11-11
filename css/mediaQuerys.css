@@ -236,24 +236,16 @@
 
     }
 
-    .contenedor-loader img {
-        width: 35%;
-        height: auto;
-        z-index: 99999;
-    }
+    
 
     .contenedor-loader .guiño img {
-        width: 35%;
+        width: 25%;
         height: auto;
         z-index: 99999;
     }
 
 
-    .contenedor-loader .loading img {
-        width: 35%;
-        height: auto;
-        z-index: 99999;
-    }
+
 
 
 
