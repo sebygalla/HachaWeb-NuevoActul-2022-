@@ -823,7 +823,7 @@
 
     }
 
-    
+
     /*DIVISION*/
 
     .division {
@@ -836,9 +836,9 @@
 
     }
 
-    .division-titulo h2{
+    .division-titulo h2 {
         font-size: 30px;
-     
+
     }
 
 
@@ -1385,9 +1385,9 @@
 
     }
 
-    .division-titulo h2{
+    .division-titulo h2 {
         font-size: 30px;
-     
+
     }
 
     .division-nosotros-foto img {
@@ -1399,6 +1399,26 @@
         left: 0;
         top: 40px;
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
+    }
+
+
+
+    .container-cards {
+
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        margin-bottom: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        font-family: 'Roboto', sans-serif;
+
 
     }
 
@@ -1602,7 +1622,7 @@
         object-fit: cover;
     }
 
-    
+
     /*DIVISION*/
 
     .division {
@@ -1615,9 +1635,9 @@
 
     }
 
-    .division-titulo h2{
+    .division-titulo h2 {
         font-size: 30px;
-     
+
     }
 
 
