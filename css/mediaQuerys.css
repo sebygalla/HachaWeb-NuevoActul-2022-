@@ -1411,7 +1411,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 90px;
 
         margin-bottom: 300px;
         margin-left: auto;
@@ -1420,6 +1420,13 @@
         font-family: 'Roboto', sans-serif;
 
 
+    }
+
+    .card {
+        width: 250px;
+        margin: 10px;
+        transition: 300ms;
+        margin-bottom: -100px;
     }
 
 
