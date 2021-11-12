@@ -14,14 +14,14 @@ html {
 body {
 	background: white;
 	color: #000;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,'Roboto', sans-serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Roboto', sans-serif;
 
 }
 
 
 /*Louder*/
 
-.contenedor-loader{
+.contenedor-loader {
 	width: 100%;
 	height: 100vh;
 	background-color: #000;
@@ -34,13 +34,13 @@ body {
 
 }
 
-.contenedor-loader img{
+.contenedor-loader img {
 	width: 15%;
 	height: auto;
 	z-index: 99999;
 }
 
-.contenedor-loader .guiño img{
+.contenedor-loader .guiño img {
 	width: 15%;
 	height: auto;
 	z-index: 99999;
@@ -122,7 +122,7 @@ header .redes-sociales a:hover {
 
 .container {
 
-	width:100%;
+	width: 100%;
 	max-width: 1500px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -155,6 +155,21 @@ header .redes-sociales a:hover {
 
 }
 
+.gris-main{
+	width: 100%;
+	height: 350px;
+	background-color: #353e464f;
+	position: absolute;
+	top: 0;
+	
+}
+
+.waves {
+	position: absolute;
+	width: 100%;
+	top: 350px;
+}
+
 
 
 
@@ -176,20 +191,10 @@ header .redes-sociales a:hover {
 	height: calc(100vh - 50px);
 	overflow: hidden;
 	position: relative;
+	background-color: rgba(145, 150, 150, 0.337);
 	
 
-
-	background: rgba(242, 246, 248, 1);
-	background: -moz-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(50%, rgba(216, 225, 231, 1)), color-stop(51%, rgba(181, 198, 208, 1)), color-stop(100%, rgba(224, 239, 249, 1)));
-	background: -webkit-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
-	background: -o-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
-	background: -ms-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
-	background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0);
 	
-
-
 }
 
 
@@ -233,6 +238,7 @@ header .redes-sociales a:hover {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 
+
 }
 
 .action i {
@@ -243,7 +249,7 @@ header .redes-sociales a:hover {
 
 
 .action-red {
-	color: white;
+	color: black;
 	background-color: #da251c;
 
 }
@@ -269,11 +275,11 @@ header .redes-sociales a:hover {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	
+
 
 }
 
-.division-titulo h2{
+.division-titulo h2 {
 	font-size: 50px;
 	color: white;
 	font-family: 'Press Start 2P', cursive;
@@ -314,7 +320,7 @@ header .redes-sociales a:hover {
 	display: grid;
 	border-radius: 8px;
 	margin: 10px;
-	
+
 	grid-template-columns: 1fr;
 
 }
@@ -474,6 +480,7 @@ header .redes-sociales a:hover {
 
 
 }
+
 /*
 .card .description input:hover {
 	background: #f80e2dd5;
@@ -484,13 +491,13 @@ header .redes-sociales a:hover {
 
 /*MODAL*/
 
-.modal-container{
+.modal-container {
 	opacity: 0;
 	visibility: hidden;
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	top: 0;	
+	top: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	display: flex;
@@ -499,7 +506,7 @@ header .redes-sociales a:hover {
 	z-index: 9999;
 }
 
-.modal{
+.modal {
 	width: 50%;
 	height: 70%;
 	background: #fff;
@@ -511,10 +518,10 @@ header .redes-sociales a:hover {
 	transition: transform 1s;
 	transform: translateY(0%);
 	border-radius: 10px;
-	
+
 }
 
-.close{
+.close {
 	position: absolute;
 	top: 0;
 	right: 5px;
@@ -527,35 +534,36 @@ header .redes-sociales a:hover {
 	cursor: pointer;
 	border-radius: 50%;
 	margin: 15px 10px;
-	
+
 }
 
-.modal-textos h2{
+.modal-textos h2 {
 	font-size: 30px;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.modal-textos p{
+
+.modal-textos p {
 	font-size: 15px;
 	text-align: justify;
 	margin: 50px;
 	margin-top: 20px;
-	
+
 }
 
-.modal-close{
+.modal-close {
 	transform: translateY(-200%);
 }
 
-.modal	img{
+.modal img {
 	width: 18%;
 	margin: 0 auto;
 	overflow: hidden;
 	object-fit: cover;
 }
 
-.modal-social i{
+.modal-social i {
 	margin: 15px;
 	color: black;
 	margin-bottom: 25px;
@@ -726,7 +734,7 @@ header .redes-sociales a:hover {
 }
 
 .division-3 h1 {
-	color:white;
+	color: white;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 50px;
 	z-index: 9;
@@ -747,10 +755,10 @@ header .redes-sociales a:hover {
 
 /*DIVISION GALERIA*/
 
-section .contenedor-galeria{
+section .contenedor-galeria {
 	width: 98%;
-	
-	display: flex;		
+
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: 10px auto;
@@ -759,32 +767,32 @@ section .contenedor-galeria{
 
 }
 
-.imagen{
+.imagen {
 	width: 100%;
 }
 
-.imagen img{
+.imagen img {
 	width: 100%;
 	filter: grayscale(100%);
-	
+
 }
 
-.imagen img:hover{
+.imagen img:hover {
 	width: 100%;
 	filter: none;
 	cursor: pointer;
-	
+
 }
 
-.galeria{
+.galeria {
 	width: 100%;
 	height: auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: .8rem;
 	row-gap: .5rem;
-	
-	
+
+
 }
 
 
