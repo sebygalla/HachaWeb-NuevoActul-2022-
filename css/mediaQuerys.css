@@ -1,5 +1,57 @@
 @media screen and (max-width: 1029px) {
 
+    
+    /*IMAGEN DE LA PORTADA PRINCIPAL*/
+
+    .hero-img {
+        width: 400px;
+        height: auto;
+        overflow: hidden;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+        margin-bottom: 80px;
+
+    }
+
+
+
+    .hero-main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: auto;
+        position: absolute;
+        bottom: 10px;
+
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 16px;
+        z-index: 9;
+
+    }
+
+    .titulo-textos {
+        text-shadow: black 0px 0px 10px;
+        font-size: 15px;
+    }
+
+
+
+
+
     /*DIVISION*/
 
     .division {
@@ -400,18 +452,6 @@
 
     }
 
-    .hero-textos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        font-size: 15px;
-        bottom: -80px;
-        color: white;
-
-
-    }
 
 
     /*TEXTO PORTADA PRINCIPAL*/
@@ -421,20 +461,22 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 20%;
+
         height: auto;
-        margin-bottom: 120px;
+        position: absolute;
+        bottom: 10px;
+
         color: white;
         font-family: 'Press Start 2P', cursive;
-        font-size: 15px;
+        font-size: 16px;
         z-index: 9;
 
     }
 
     .titulo-textos {
         text-shadow: black 0px 0px 10px;
+        font-size: 15px;
     }
-
 
 
 
@@ -936,9 +978,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 20%;
+
         height: auto;
-        margin-bottom: 120px;
+        position: absolute;
+        bottom: 20px;
+
         color: white;
         font-family: 'Press Start 2P', cursive;
         font-size: 16px;
@@ -948,6 +992,7 @@
 
     .titulo-textos {
         text-shadow: black 0px 0px 10px;
+        font-size: 15px;
     }
 
 
@@ -1320,13 +1365,6 @@
 
 
 
-
-
-
-
-    /*DIVISION GALERY*/
-
-
     /*DIVISION GALERY*/
 
     .division-3 {
@@ -1611,38 +1649,25 @@
 
     /*IMAGEN DE LA PORTADA PRINCIPAL*/
 
-    .hero-img {
-        width: 400px;
-        height: auto;
-        overflow: hidden;
-        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
-        margin-bottom: 80px;
-
-    }
-
-
-
     .hero-main {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        width: 100%;
 
     }
 
-
-
-
-    /*TEXTO PORTADA PRINCIPAL*/
+    .hero-img {
+        width: 350px;
+        height: auto;
+        overflow: hidden;
+    }
 
     .hero-textos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 20%;
-        height: auto;
-        margin-bottom: 120px;
+
+        position: absolute;
+        bottom: 20px;
         color: white;
         font-family: 'Press Start 2P', cursive;
         font-size: 15px;
@@ -1651,10 +1676,8 @@
     }
 
     .titulo-textos {
-        text-shadow: black 0px 0px 10px;
+        font-size: 12px;
     }
-
-
 
 
 
@@ -1889,14 +1912,34 @@
 
 
 
+    .hero-main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
 
     .hero-img {
-        width: 100%;
+        width: 350px;
         height: auto;
         overflow: hidden;
+    }
 
+    .hero-textos {
 
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 15px;
+        z-index: 9;
 
+    }
+
+    .titulo-textos {
+        font-size: 12px;
     }
 
 
