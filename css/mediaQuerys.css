@@ -1659,7 +1659,7 @@
     }
 
     .hero-img {
-        width: 400px;
+        width: 100%;
         height: auto;
         overflow: hidden;
     }
