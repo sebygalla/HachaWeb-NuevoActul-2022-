@@ -344,6 +344,7 @@
     }
 
     /*REDES SOCIALES*/
+
     header .redes-sociales {
         display: none;
 
@@ -353,14 +354,15 @@
     /*REDES SOCIALES menu*/
 
     header .redes-sociales_menu {
-        display: block ;
+        display: block;
         font-size: 30px;
-        
+
+
     }
 
     header .redes-sociales_menu a {
         color: #E9ECF4;
-        margin: 20px;
+        margin: 10px;
     }
 
     header .redes-sociales_menu a:hover {
@@ -375,6 +377,117 @@
         width: 28px;
         margin-left: 20px;
     }
+
+
+    /*IMAGEN DE LA PORTADA PRINCIPAL*/
+
+    .hero-img {
+        width: 400px;
+        height: auto;
+        overflow: hidden;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+        margin-bottom: 80px;
+
+    }
+
+
+
+    .hero-main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 15px;
+        bottom: -80px;
+        color: white;
+
+
+    }
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: auto;
+        margin-bottom: 120px;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 13px;
+        z-index: 9;
+
+    }
+
+    .titulo-textos {
+        text-shadow: black 0px 0px 10px;
+    }
+
+
+
+
+
+
+
+    /* BOTON reutilizable*/
+
+    .action {
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        padding: 2px 100px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        margin: 20px;
+        font-family: roboto;
+        font-weight: 900;
+        letter-spacing: 2px;
+
+
+
+    }
+
+
+    .action a {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+
+    }
+
+
+
+    .action-red {
+        color: white;
+        background-color: #da251c;
+        padding: 10px 10px;
+
+    }
+
+
+    .action-red:hover {
+        background-color: #C43535;
+    }
+
+    .action-red:active {
+        background-color: #A62828;
+    }
+
+
+
 
     /*DIVISION*/
 
@@ -775,6 +888,10 @@
 
 @media screen and (max-width: 500px) {
 
+    .hero-main {
+        flex-direction: column-reverse;
+    }
+
 
 
 
@@ -786,6 +903,116 @@
 
 
     }
+
+    
+    /*IMAGEN DE LA PORTADA PRINCIPAL*/
+
+    .hero-img {
+        width: 400px;
+        height: auto;
+        overflow: hidden;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+        margin-bottom: 80px;
+
+    }
+
+
+
+    .hero-main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 15px;
+        bottom: -80px;
+        color: white;
+
+
+    }
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: auto;
+        margin-bottom: 120px;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 13px;
+        z-index: 9;
+
+    }
+
+    .titulo-textos {
+        text-shadow: black 0px 0px 10px;
+    }
+
+
+
+
+
+
+
+    /* BOTON reutilizable*/
+
+    .action {
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        padding: 2px 100px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        margin: 20px;
+        font-family: roboto;
+        font-weight: 900;
+        letter-spacing: 2px;
+
+
+
+    }
+
+
+    .action a {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+
+    }
+
+
+
+    .action-red {
+        color: white;
+        background-color: #da251c;
+        padding: 10px 10px;
+
+    }
+
+
+    .action-red:hover {
+        background-color: #C43535;
+    }
+
+    .action-red:active {
+        background-color: #A62828;
+    }
+
+
 
 
     /*CONTENIDO NOSOTROS*/
@@ -1386,6 +1613,166 @@
 
 
 
+    /*IMAGEN DE LA PORTADA PRINCIPAL*/
+
+    .hero-img {
+        width: 400px;
+        height: auto;
+        overflow: hidden;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+        margin-bottom: 80px;
+
+    }
+
+
+
+    .hero-main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 15px;
+        bottom: -80px;
+        color: white;
+
+
+    }
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: auto;
+        margin-bottom: 120px;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 13px;
+        z-index: 9;
+
+    }
+
+    .titulo-textos {
+        text-shadow: black 0px 0px 10px;
+    }
+
+
+
+
+
+
+
+    /* BOTON reutilizable*/
+
+    .action {
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        padding: 2px 100px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        margin: 20px;
+        font-family: roboto;
+        font-weight: 900;
+        letter-spacing: 2px;
+
+
+
+    }
+
+
+    .action a {
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+
+    }
+
+
+
+    .action-red {
+        color: white;
+        background-color: #da251c;
+        padding: 10px 10px;
+
+    }
+
+
+    .action-red:hover {
+        background-color: #C43535;
+    }
+
+    .action-red:active {
+        background-color: #A62828;
+    }
+
+
+
+    /*DIVISION LISTA DE TEMAS*/
+
+    .division {
+        width: 100%;
+        height: 40vh;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+
+    }
+
+    .division-titulo h2 {
+        font-size: 50px;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+
+        text-align: center;
+
+
+    }
+
+    .division-nosotros-foto img {
+        width: 250px;
+        height: auto;
+        transform: rotate(-20deg);
+        margin: 100px;
+        position: absolute;
+        left: 0;
+        top: 80px;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*DIVISION LISTA DE TEMAS*/
 
     .division {
@@ -1512,6 +1899,7 @@
         width: 100%;
         height: auto;
         overflow: hidden;
+
 
 
     }
