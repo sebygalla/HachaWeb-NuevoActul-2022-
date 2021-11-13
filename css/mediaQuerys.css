@@ -426,7 +426,7 @@
         margin-bottom: 120px;
         color: white;
         font-family: 'Press Start 2P', cursive;
-        font-size: 13px;
+        font-size: 15px;
         z-index: 9;
 
     }
@@ -904,7 +904,7 @@
 
     }
 
-    
+
     /*IMAGEN DE LA PORTADA PRINCIPAL*/
 
     .hero-img {
@@ -926,18 +926,7 @@
 
     }
 
-    .hero-textos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        font-size: 15px;
-        bottom: -80px;
-        color: white;
 
-
-    }
 
 
     /*TEXTO PORTADA PRINCIPAL*/
@@ -952,7 +941,7 @@
         margin-bottom: 120px;
         color: white;
         font-family: 'Press Start 2P', cursive;
-        font-size: 13px;
+        font-size: 16px;
         z-index: 9;
 
     }
@@ -1634,18 +1623,7 @@
 
     }
 
-    .hero-textos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        font-size: 15px;
-        bottom: -80px;
-        color: white;
-
-
-    }
+  
 
 
     /*TEXTO PORTADA PRINCIPAL*/
@@ -1660,7 +1638,7 @@
         margin-bottom: 120px;
         color: white;
         font-family: 'Press Start 2P', cursive;
-        font-size: 13px;
+        font-size: 15px;
         z-index: 9;
 
     }
