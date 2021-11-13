@@ -120,6 +120,24 @@ header .redes-sociales a:hover {
 
 
 
+/*REDES SOCIALES menu*/
+
+header .redes-sociales_menu {
+	display: none;
+}
+
+header .redes-sociales_menu a {
+	color: #E9ECF4;
+	margin-right: 10px;
+}
+
+header .redes-sociales_menu a:hover {
+	color: gray;
+	margin-right: 10px;
+}
+
+
+
 .container {
 
 	width: 100%;
@@ -157,7 +175,7 @@ header .redes-sociales a:hover {
 
 .gris-main{
 	width: 100%;
-	height: 350px;
+	height: 200px;
 	background-color: #353e464f;
 	position: absolute;
 	top: 0;
@@ -167,7 +185,7 @@ header .redes-sociales a:hover {
 .waves {
 	position: absolute;
 	width: 100%;
-	top: 350px;
+	top: 200px;
 }
 
 
@@ -722,8 +740,8 @@ header .redes-sociales a:hover {
 .division-3 {
 	width: 100%;
 	height: 40vh;
-	background: white;
-	background: #dcdde0;
+
+	background: #010102;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -734,7 +752,7 @@ header .redes-sociales a:hover {
 }
 
 .division-3 h1 {
-	color: white;
+	color: #000000;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 50px;
 	z-index: 9;
