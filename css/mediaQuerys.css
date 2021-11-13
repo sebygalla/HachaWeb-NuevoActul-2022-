@@ -1586,6 +1586,10 @@
 }
 
 
+
+
+
+
 @media screen and (max-width: 450px) {
 
     .contenedor-galeria {
@@ -1796,7 +1800,7 @@
         align-items: center;
         gap: 90px;
 
-        margin-bottom: 300px;
+        margin-bottom: 500px;
         margin-left: auto;
         margin-right: auto;
         max-width: 1200px;
@@ -1817,6 +1821,13 @@
 
 
 
+
+
+
+
+    /*GALERIA*/
+
+
     .galeria {
         width: 100%;
         height: auto;
@@ -1835,7 +1846,7 @@
 
     .division-3 {
         width: 100%;
-        height: 40vh;
+        height: 20vh;
 
         background: #010102;
         display: flex;
@@ -1859,7 +1870,7 @@
     .division-3 .cassette-3 {
         width: 300px;
         position: absolute;
-        top: -240px;
+        top: -290px;
         left: 20%;
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 
