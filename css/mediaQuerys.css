@@ -1438,6 +1438,44 @@
 
 
 
+    
+    /*DIVISION GALERY VIDEOS*/
+
+    .division-4 {
+        width: 100%;
+        height: 20vh;
+
+        background: #010102;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 300px;
+
+
+    }
+
+    .division-4 h1 {
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        z-index: 9;
+
+
+    }
+
+    .division-4 .cassette-4 {
+        width: 150px;
+        position: absolute;
+        top: -50px;
+        left: 32%;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
+    }
+
+
+
+
 
 
 
@@ -1896,7 +1934,45 @@
         width: 300px;
         position: absolute;
         top: -290px;
-        left: 20%;
+        left: 15%;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
+    }
+
+
+
+    
+
+    /*DIVISION GALERY VIDEOS*/
+
+    .division-4 {
+        width: 100%;
+        height: 20vh;
+
+        background: #010102;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 300px;
+
+
+    }
+
+    .division-4 h1 {
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        z-index: 9;
+
+
+    }
+
+    .division-4 .cassette-4 {
+        width: 150px;
+        position: absolute;
+        top: -50px;
+        left: 32%;
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 
     }
