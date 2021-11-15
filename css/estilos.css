@@ -173,13 +173,13 @@ header .redes-sociales_menu a:hover {
 
 }
 
-.gris-main{
+.gris-main {
 	width: 100%;
 	height: 200px;
 	background-color: #353e464f;
 	position: absolute;
 	top: 0;
-	
+
 }
 
 .waves {
@@ -211,9 +211,9 @@ header .redes-sociales_menu a:hover {
 	position: relative;
 	background-color: rgba(145, 150, 150, 0.337);
 	margin-bottom: 12px;
-	
 
-	
+
+
 }
 
 
@@ -232,9 +232,9 @@ header .redes-sociales_menu a:hover {
 	width: 30px;
 }
 
-  /*TEXTO PORTADA PRINCIPAL*/
+/*TEXTO PORTADA PRINCIPAL*/
 
-  .hero-textos {
+.hero-textos {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -268,16 +268,16 @@ header .redes-sociales_menu a:hover {
 	padding: 2px 10px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 	margin: 20px;
-	
+
 
 
 }
 
 
-.action a{
+.action a {
 	color: white;
 	text-decoration: none;
-	
+
 }
 
 
@@ -831,8 +831,81 @@ section .contenedor-galeria {
 }
 
 
+/*videos*/
 
 
+
+
+/*DIVISION GALERY*/
+
+.division-4{
+	width: 100%;
+	height: 40vh;
+
+	background: #010102;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-top: 300px;
+
+
+}
+
+.division-4 h1 {
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 50px;
+	z-index: 9;
+
+
+}
+
+.division-4 .cassette-4 {
+	width: 400px;
+	position: absolute;
+	top: -320px;
+	left: 0px;
+	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
+}
+
+
+
+
+
+
+.contenedor-video {
+	width: 100%;
+	height: auto;
+	background-color: #A62828;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+.galeria-video {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+
+.galeria-video iframe {
+	margin: 10px;
+
+
+
+
+}
 
 
 
