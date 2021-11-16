@@ -1697,6 +1697,15 @@
 
 
 
+    .contenedor-loader p {
+        color: white;
+        font-size: .6em;
+        font-family: 'Press Start 2P', cursive;
+
+    }
+
+
+
 
     /*IMAGEN DE LA PORTADA PRINCIPAL*/
 
@@ -1818,6 +1827,9 @@
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 
     }
+
+
+
 
 
 
