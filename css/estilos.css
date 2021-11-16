@@ -880,19 +880,6 @@ section .contenedor-galeria {
 
 }
 
-.division-4 .cassette-4 {
-	width: 200px;
-	position: absolute;
-	top: -70px;
-	left: 60px;
-	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
-
-}
-
-
-
-
-
 
 .contenedor-video {
 	width: 100%;
