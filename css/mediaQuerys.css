@@ -1,6 +1,6 @@
 @media screen and (max-width: 1029px) {
 
-    
+
     /*IMAGEN DE LA PORTADA PRINCIPAL*/
 
     .hero-img {
@@ -270,9 +270,6 @@
 @media screen and (max-width: 992px) {
 
 
-
-
-
     /*Louder*/
 
     .contenedor-loader {
@@ -288,13 +285,29 @@
 
     }
 
+    .contenedor-loader p {
+        color: white;
+        font-size: .8em;
+        font-family: 'Press Start 2P', cursive;
 
+    }
 
-    .contenedor-loader .guiño img {
-        width: 30%;
+    .contenedor-loader img {
+        width: 150px;
         height: auto;
         z-index: 99999;
     }
+
+    .contenedor-loader .guiño img {
+        width: 100px;
+        height: auto;
+        z-index: 99999;
+    }
+
+
+
+
+
 
 
 
@@ -1438,7 +1451,7 @@
 
 
 
-    
+
     /*DIVISION GALERY VIDEOS*/
 
     .division-4 {
@@ -1941,7 +1954,7 @@
 
 
 
-    
+
 
     /*DIVISION GALERY VIDEOS*/
 
