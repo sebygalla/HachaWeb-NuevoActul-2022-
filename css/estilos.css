@@ -36,7 +36,7 @@ body {
 }
 
 .contenedor-loader img {
-	width: 100px;
+	width: 150px;
 	height: auto;
 	z-index: 99999;
 }
@@ -802,7 +802,6 @@ header .redes-sociales_menu a:hover {
 
 section .contenedor-galeria {
 	width: 98%;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -814,11 +813,13 @@ section .contenedor-galeria {
 
 .imagen {
 	width: 100%;
+	
 }
 
 .imagen img {
 	width: 100%;
 	filter: grayscale(100%);
+
 
 }
 
@@ -836,6 +837,7 @@ section .contenedor-galeria {
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: .8rem;
 	row-gap: .5rem;
+
 
 
 }
