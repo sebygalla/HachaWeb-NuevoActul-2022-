@@ -993,9 +993,9 @@ section .contenedor-galeria {
 
 .footer-link h1 {
 	font-size: 30px;
-	font-weight: 900;
+	font-weight: 700;
 	color: #E9ECF4;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'robot', sans-serif;
 
 }
 
@@ -1011,8 +1011,8 @@ section .contenedor-galeria {
 
 .footer-nosotros h1 {
 	font-size: 30px;
-	font-family: 'Press Start 2P', cursive;
-	font-weight: 900;
+	font-family: 'robot', sans-serif;
+	font-weight: 700;
 	color: #E9ECF4;
 }
 
@@ -1057,8 +1057,8 @@ section .contenedor-galeria {
 
 .footer-redes h1 {
 	font-size: 30px;
-	font-family: 'Press Start 2P', cursive;
-	font-weight: 900;
+	font-family: 'robot', sans-serif;
+	font-weight: 700;
 	color: #E9ECF4;
 }
 
