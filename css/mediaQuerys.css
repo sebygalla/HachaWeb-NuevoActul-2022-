@@ -327,6 +327,7 @@
     header .navbar {
 
         width: 100vw;
+        height: 55px;
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -452,7 +453,7 @@
 
     /*LOGO*/
     .logo {
-        width: 28px;
+        width: 35px;
         margin-left: 20px;
     }
 

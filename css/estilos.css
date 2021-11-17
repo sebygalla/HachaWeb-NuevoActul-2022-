@@ -84,7 +84,7 @@ header {
 header .navbar {
 	background: black;
 	width: 100vw;
-	height: 50px;
+	height: 55px;
 	position: fixed;
 	z-index: 999;
 	display: flex;
@@ -476,7 +476,7 @@ header .redes-sociales_menu a:hover {
 
 
 .logo {
-	width: 30px;
+	width: 35px;
 }
 
 /*TEXTO PORTADA PRINCIPAL*/
