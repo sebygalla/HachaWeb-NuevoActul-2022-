@@ -343,7 +343,7 @@
     header .menu {
 
         position: fixed;
-        top: 50px;
+        top: 55px;
         width: 100vw;
         height: 100vh;
         z-index: 999;
@@ -455,6 +455,7 @@
     .logo {
         width: 40px;
         margin-left: 20px;
+        padding: 1px;
     }
 
 
