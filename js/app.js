@@ -1,6 +1,6 @@
 /*loader*/
 
-window.onload = function() {
+window.onload = function () {
     var loader = document.querySelector('.contenedor-loader');
     loader.style.display = 'none';
 }
@@ -8,6 +8,18 @@ window.onload = function() {
 
 
 /* MENU HAMBURGUESA*/
+
+
+const menuToggleEl = document.querySelector(".hamburger-menu");
+
+menuToggleEl.addEventListener("click", () => {
+    menuToggleEl.classList.toggle("active");
+});
+
+
+
+
+
 
 const btnHamb = document.getElementById('hamb');
 const menu = document.getElementById('menu');
@@ -23,12 +35,19 @@ btnHamb.addEventListener('click', () => {
 });
 
 
+
+
+
+
+
+
 /*al hacer click sobre un enlace se dirije a el y desaparece la lista de enlaces)*/
 
 enlace.addEventListener('click', () => {
 
 
     enlace.classList.remove("menu-on");
+    menuToggleEl.classList.toggle("active");
 
 });
 
