@@ -1586,8 +1586,8 @@
     }
 
     .footer-link h1 {
-        font-size: 20px;
-
+        font-size: 25px;
+        font-weight: 900;
         color: #E9ECF4;
 
         margin-top: 60px;
@@ -1606,7 +1606,8 @@
     }
 
     .footer-nosotros h1 {
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 900;
 
         color: #E9ECF4;
     }
@@ -1652,8 +1653,8 @@
 
 
     .footer-redes h1 {
-        font-size: 20px;
-
+        font-size: 25px;
+        font-weight: 900;
         color: #E9ECF4;
     }
 
