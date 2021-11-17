@@ -422,6 +422,10 @@
 
     }
 
+    .hamburger-menu:not(:focus-visible) {
+        outline: none;
+    }
+
     /*REDES SOCIALES*/
 
     header .redes-sociales {
