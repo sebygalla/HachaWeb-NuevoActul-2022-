@@ -371,6 +371,7 @@ header .redes-sociales a:hover {
 
 header .redes-sociales_menu {
 	display: none;
+	margin-top: 100px;
 }
 
 header .redes-sociales_menu a {
@@ -399,7 +400,7 @@ header .redes-sociales_menu a:hover {
 
 #ir_arriba_boton {
 	position: fixed;
-	z-index: 1000;
+	z-index: 999;
 	right: 25px;
 	bottom: 25px;
 	background-color: rgb(25, 121, 169);
@@ -477,6 +478,7 @@ header .redes-sociales_menu a:hover {
 
 .logo {
 	width: 35px;
+	padding: 1px;
 }
 
 /*TEXTO PORTADA PRINCIPAL*/

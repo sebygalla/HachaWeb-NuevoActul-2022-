@@ -334,6 +334,7 @@
         align-items: center;
         position: fixed;
         z-index: 999;
+        
 
     }
 
@@ -377,7 +378,7 @@
         background: transparent;
         justify-content: space-between;
         margin-top: -80px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
 
@@ -387,7 +388,7 @@
     header .menu ul li {
         list-style: none;
         margin-right: 14px;
-        padding: 2rem;
+        padding: 1.2rem;
 
 
     }
@@ -418,6 +419,7 @@
         display: block;
         margin-right: 20px;
         cursor: pointer;
+    
        
 
     }
@@ -459,7 +461,7 @@
     .logo {
         width: 40px;
         margin-left: 20px;
-        padding: 1px;
+        padding: 3px;
     }
 
 
@@ -820,7 +822,8 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 100vw;
-        height: 100%;
+        height: 100vh;
+        
 
 
     }
