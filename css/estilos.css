@@ -1149,6 +1149,65 @@ section .contenedor-galeria {
 
 
 
+/*contenedor info*/
+
+.contenedor-info {
+
+
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	width: 90%;
+	height: auto;
+	margin: 20px auto;
+
+	
+
+
+}
+
+.contenedor-info1{
+	width: 450px;
+	max-width: 500px;
+	height: auto;
+	
+
+	justify-content: center;
+	align-items: justify;
+	background: #ee0979;
+
+	border-radius: 8px;
+	padding: 20px;
+	color: white;
+	overflow: hidden;
+
+
+	
+
+}
+
+.contenedor-info2{
+	width: 450px;
+	max-width: 500px;
+	height: auto;
+
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	background: #c44a4a;
+
+	border-radius: 8px;
+	padding: 20px;
+	color: white;
+	
+
+}
+
+
+
 
 
 
