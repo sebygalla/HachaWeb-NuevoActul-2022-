@@ -20,7 +20,7 @@
     }
 
     .modal {
-        width: 80%;
+        width: 70%;
         height: 50%;
         max-width: 500px;
         background-color: white;
@@ -31,26 +31,50 @@
         position: relative;
         transition: transform 1s;
         transform: translateY(0%);
-        border-radius: 6px;
+        border-radius: 10px;
+
+
 
     }
 
     .modal-imagen {
         width: 100%;
-        margin: 0 auto;
+        height: auto;
         overflow: hidden;
-        object-fit: cover;
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+
+        position: relative;
+
+        margin-top: 20px;
+
+
+
+
     }
 
+    .modal-cardBg {
+        width: 100%;
+        height: 40%;
+        margin-top: -30px;
+        margin-bottom: 40px;
+        background-size: cover;
+
+
+    }
+
+
     .modal-circulo {
-        width: 210px;
-        height: 210px;
+        width: 150px;
+        height: 150px;
         border-radius: 100%;
+        border: 6px solid white;
+        position: absolute;
+        top: 40px;
+
     }
 
     .modal-img {
@@ -66,14 +90,17 @@
         color: #C43535;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
+        margin-top: 28px;
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 18px;
+        font-size: 15px;
         color: #000000;
         text-align: center;
+        margin-top: -30px;
+
 
     }
 
@@ -95,6 +122,7 @@
 
     .modal-textos {
         width: 100%;
+        height: auto;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -102,7 +130,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 0px;
     }
 
 
@@ -110,7 +138,7 @@
     .modal-textos p {
         font-size: 15px;
         text-align: justify;
-        margin: 20px;
+        margin: 50px;
         margin-top: 20px;
 
     }
@@ -124,13 +152,16 @@
     .modal-social i {
         margin: 15px;
         color: #c44a4a;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
 
     }
 
 
 
 
+
+
+    
 
 
 
@@ -192,6 +223,7 @@
 
 
 
+
     
 
     /*MODAL*/
@@ -212,8 +244,9 @@
     }
 
     .modal {
-        width: 80%;
+        width: 70%;
         height: 50%;
+        max-width: 500px;
         background-color: white;
         text-align: center;
         display: flex;
@@ -222,26 +255,50 @@
         position: relative;
         transition: transform 1s;
         transform: translateY(0%);
-        border-radius: 6px;
+        border-radius: 10px;
+
+
 
     }
 
     .modal-imagen {
         width: 100%;
-        margin: 0 auto;
+        height: auto;
         overflow: hidden;
-        object-fit: cover;
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+
+        position: relative;
+
+        margin-top: 20px;
+
+
+
+
     }
 
+    .modal-cardBg {
+        width: 100%;
+        height: 40%;
+        margin-top: -30px;
+        margin-bottom: 40px;
+        background-size: cover;
+
+
+    }
+
+
     .modal-circulo {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 100%;
+        border: 6px solid white;
+        position: absolute;
+        top: 40px;
+
     }
 
     .modal-img {
@@ -257,14 +314,17 @@
         color: #C43535;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
+        margin-top: 28px;
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 18px;
+        font-size: 15px;
         color: #000000;
         text-align: center;
+        margin-top: -30px;
+
 
     }
 
@@ -286,6 +346,7 @@
 
     .modal-textos {
         width: 100%;
+        height: auto;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -293,7 +354,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 0px;
     }
 
 
@@ -301,7 +362,7 @@
     .modal-textos p {
         font-size: 15px;
         text-align: justify;
-        margin: 20px;
+        margin: 50px;
         margin-top: 20px;
 
     }
@@ -315,10 +376,9 @@
     .modal-social i {
         margin: 15px;
         color: #c44a4a;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
 
     }
-
 
 
 
@@ -790,8 +850,6 @@
 
 
 
-
-
     /*MODAL*/
 
     .modal-container {
@@ -810,8 +868,9 @@
     }
 
     .modal {
-        width: 80%;
+        width: 70%;
         height: 50%;
+        max-width: 500px;
         background-color: white;
         text-align: center;
         display: flex;
@@ -820,26 +879,50 @@
         position: relative;
         transition: transform 1s;
         transform: translateY(0%);
-        border-radius: 6px;
+        border-radius: 10px;
+
+
 
     }
 
     .modal-imagen {
         width: 100%;
-        margin: 0 auto;
+        height: auto;
         overflow: hidden;
-        object-fit: cover;
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+
+        position: relative;
+
+        margin-top: 20px;
+
+
+
+
     }
 
+    .modal-cardBg {
+        width: 100%;
+        height: 40%;
+        margin-top: -30px;
+        margin-bottom: 40px;
+        background-size: cover;
+
+
+    }
+
+
     .modal-circulo {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 100%;
+        border: 6px solid white;
+        position: absolute;
+        top: 40px;
+
     }
 
     .modal-img {
@@ -855,14 +938,17 @@
         color: #C43535;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
+        margin-top: 28px;
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 18px;
+        font-size: 15px;
         color: #000000;
         text-align: center;
+        margin-top: -30px;
+
 
     }
 
@@ -884,6 +970,7 @@
 
     .modal-textos {
         width: 100%;
+        height: auto;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -891,7 +978,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 0px;
     }
 
 
@@ -899,7 +986,7 @@
     .modal-textos p {
         font-size: 15px;
         text-align: justify;
-        margin: 20px;
+        margin: 50px;
         margin-top: 20px;
 
     }
@@ -913,13 +1000,9 @@
     .modal-social i {
         margin: 15px;
         color: #c44a4a;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
 
     }
-
-
-
-
 
 
 
@@ -1297,6 +1380,7 @@
 @media screen and (max-width: 710px) {
 
 
+
     /*MODAL*/
 
     .modal-container {
@@ -1315,9 +1399,9 @@
     }
 
     .modal {
-        width: 70%;
-        height: 80%;
-        max-width: 400px;
+        width: 100%;
+        height: 70%;
+        max-width: 300px;
         background-color: white;
         text-align: center;
         display: flex;
@@ -1337,16 +1421,28 @@
         overflow: hidden;
         object-fit: cover;
         display: flex;
-
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 10px;
+        padding: 20px;
     }
 
+    .modal-cardBg {
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+        padding: 0;
+        margin-bottom: 40px;
+        background-size: cover;
+        z-index: -1;
+
+
+    }
+
+
     .modal-circulo {
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
 
     }
 
@@ -1359,21 +1455,22 @@
     }
 
     .modal-imagen h1 {
-        font-size: 20px;
+        font-size: 18px;
         color: #C43535;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
         padding: 10px;
+        margin-top: 25px;
 
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 18px;
+        font-size: 13px;
         color: #000000;
         text-align: center;
-
+        margin-bottom: -30px;
 
 
     }
@@ -1429,6 +1526,7 @@
         margin-bottom: 0px;
 
     }
+
 
 
 
@@ -1695,9 +1793,6 @@
 
 
 
-
-
-
     /*MODAL*/
 
     .modal-container {
@@ -1716,8 +1811,9 @@
     }
 
     .modal {
-        width: 70%;
+        width: 100%;
         height: 70%;
+        max-width: 250px;
         background-color: white;
         text-align: center;
         display: flex;
@@ -1732,7 +1828,7 @@
 
     .modal-imagen {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -1740,8 +1836,20 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        padding: 10px;
+        padding: 20px;
     }
+
+    .modal-cardBg {
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 40px;
+        background-size: cover;
+
+
+    }
+
 
     .modal-circulo {
         width: 140px;
@@ -1763,15 +1871,18 @@
         font-family: 'Press Start 2P', cursive;
         text-align: center;
         padding: 10px;
+        margin-top: 20px;
 
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 15px;
+        font-size: 13px;
         color: #000000;
         text-align: center;
+        margin-bottom: -30px;
+
 
     }
 
@@ -1793,7 +1904,7 @@
 
     .modal-textos {
         width: 100%;
-        height: 45vh;
+        height: 40vh;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -1826,6 +1937,7 @@
         margin-bottom: 0px;
 
     }
+
 
 
 
@@ -2330,8 +2442,9 @@
     }
 
     .modal {
-        width: 70%;
+        width: 100%;
         height: 70%;
+        max-width: 250px;
         background-color: white;
         text-align: center;
         display: flex;
@@ -2346,7 +2459,7 @@
 
     .modal-imagen {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -2357,9 +2470,21 @@
         padding: 20px;
     }
 
+    .modal-cardBg {
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 40px;
+        background-size: cover;
+
+
+    }
+
+
     .modal-circulo {
-        width: 140px;
-        height: 140px;
+        width: 150px;
+        height: 150px;
 
     }
 
@@ -2376,16 +2501,19 @@
         color: #C43535;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
-        padding: 5px;
+        padding: 10px;
+        margin-top: 20px;
 
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 15px;
+        font-size: 13px;
         color: #000000;
         text-align: center;
+        margin-bottom: -30px;
+
 
     }
 
@@ -2407,7 +2535,7 @@
 
     .modal-textos {
         width: 100%;
-        height: 45vh;
+        height: 40vh;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -2421,7 +2549,7 @@
 
 
     .modal-textos p {
-        font-size: 14px;
+        font-size: 13px;
         text-align: justify;
         margin: 10px;
         margin-top: 0px;
@@ -2806,6 +2934,8 @@
 
 
 
+
+
     /*MODAL*/
 
     .modal-container {
@@ -2824,8 +2954,9 @@
     }
 
     .modal {
-        width: 70%;
+        width: 100%;
         height: 70%;
+        max-width: 250px;
         background-color: white;
         text-align: center;
         display: flex;
@@ -2841,7 +2972,7 @@
     .modal-imagen {
         width: 100%;
         height: 60vh;
-        margin: 0px auto;
+        margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
         display: flex;
@@ -2851,9 +2982,21 @@
         padding: 20px;
     }
 
+    .modal-cardBg {
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 40px;
+        background-size: cover;
+
+
+    }
+
+
     .modal-circulo {
-        width: 140px;
-        height: 140px;
+        width: 150px;
+        height: 150px;
 
     }
 
@@ -2871,15 +3014,17 @@
         font-family: 'Press Start 2P', cursive;
         text-align: center;
         padding: 10px;
+        margin-top: 160px;
 
 
     }
 
 
     .modal-imagen h2 {
-        font-size: 15px;
+        font-size: 13px;
         color: #000000;
         text-align: center;
+        margin-bottom: -30px;
 
 
     }
@@ -2902,7 +3047,7 @@
 
     .modal-textos {
         width: 100%;
-        height: 50vh;
+        height: 45vh;
         margin: 0 auto;
         overflow: hidden;
         object-fit: cover;
@@ -2911,13 +3056,12 @@
         align-items: center;
         flex-wrap: wrap;
 
-
     }
 
 
 
     .modal-textos p {
-        font-size: 12px;
+        font-size: 13px;
         text-align: justify;
         margin: 10px;
         margin-top: 0px;
@@ -2936,6 +3080,12 @@
         margin-bottom: 0px;
 
     }
+
+
+
+
+
+
 
 
 

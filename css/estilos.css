@@ -793,6 +793,7 @@ header .redes-sociales_menu a:hover {
 .modal {
 	width: 50%;
 	height: 50%;
+	max-width: 500px;
 	background-color: white;
 	text-align: center;
 	display: flex;
@@ -801,36 +802,53 @@ header .redes-sociales_menu a:hover {
 	position: relative;
 	transition: transform 1s;
 	transform: translateY(0%);
-	border-radius: 6px;
+	border-radius: 10px;
+	
 
 
 }
 
-.modal-imagen{
-	width: 100%;
-	margin: 0 auto;
+.modal-imagen {
+	width: 80%;
+	height: auto;
 	overflow: hidden;
-	object-fit: cover;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 20px;
-	background:url(../img/bg2.jpg);
+	
+	position: relative;
+
+	margin: 10px;
+
+
+
+
+}
+
+.modal-cardBg{
+	width: 100%;
+	height: 40%;
+	margin-top: -30px;
+	margin-bottom: 40px;
 	background-size: cover;
-	background-repeat: no-repeat;
 	
-	
-	
+
 }
 
-.modal-circulo{
-	width: 200px;
-	height: 200px;
+
+.modal-circulo {
+	width: 150px;
+	height: 150px;
 	border-radius: 100%;
+	border: 6px solid white;
+	position: absolute;
+	top: 40px;
+	
 }
 
-.modal-img{
+.modal-img {
 	width: 100%;
 	height: 100%;
 	border-radius: 100%;
@@ -838,20 +856,23 @@ header .redes-sociales_menu a:hover {
 
 }
 
-.modal-imagen h1{
+.modal-imagen h1 {
 	font-size: 20px;
 	color: #C43535;
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
-	
+	margin-top: 28px;
+
 }
 
 
-.modal-imagen h2{
+.modal-imagen h2 {
 	font-size: 15px;
-	color:#000000;
+	color: #000000;
 	text-align: center;
+	margin-top: -30px;
 	
+
 }
 
 .close {
@@ -870,7 +891,7 @@ header .redes-sociales_menu a:hover {
 
 }
 
-.modal-textos{
+.modal-textos {
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -879,7 +900,7 @@ header .redes-sociales_menu a:hover {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 20px;
+	padding: 10px;
 }
 
 
@@ -900,9 +921,9 @@ header .redes-sociales_menu a:hover {
 
 .modal-social i {
 	margin: 15px;
-	color: red;
+	color: #c44a4a;
 	margin-bottom: 25px;
-	
+
 }
 
 
@@ -1216,16 +1237,16 @@ section .contenedor-galeria {
 	height: auto;
 	margin: 20px auto;
 
-	
+
 
 
 }
 
-.contenedor-info1{
+.contenedor-info1 {
 	width: 450px;
 	max-width: 500px;
 	height: auto;
-	
+
 
 	justify-content: center;
 	align-items: justify;
@@ -1242,16 +1263,16 @@ section .contenedor-galeria {
 
 }
 
-.contenedor-img{
+.contenedor-img {
 	width: 50px;
 	height: auto;
 	border-radius: 50%;
 	margin: 20px 0;
-	
+
 
 }
 
-.contenedor-info2{
+.contenedor-info2 {
 	width: 450px;
 	max-width: 500px;
 	height: auto;
@@ -1266,7 +1287,7 @@ section .contenedor-galeria {
 	padding: 20px;
 	color: white;
 	margin-top: 30px;
-	
+
 
 }
 
