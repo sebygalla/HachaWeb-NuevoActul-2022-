@@ -1586,7 +1586,7 @@
         text-align: center;
         text-transform: uppercase;
         font-family: 'Anton', sans-serif;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
 
         background-image: url(../img/galeria\ de\ imagenes/5.jpg);
@@ -2266,7 +2266,7 @@
         text-align: center;
         text-transform: uppercase;
         font-family: 'Anton', sans-serif;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
 
         background-image: url(../img/galeria\ de\ imagenes/5.jpg);
@@ -2955,6 +2955,44 @@
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 
     }
+
+
+
+    /*hacha-contenedor*/
+
+    .hacha-container {
+        background: #fff;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hacha-texto {
+        width: 100%;
+        color: transparent;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Anton', sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+
+        background-image: url(../img/galeria\ de\ imagenes/5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+
+        background-clip: text;
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+
+
+    }
+
 
 
 
