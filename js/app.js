@@ -75,10 +75,14 @@ window.addEventListener('scroll', () => {
 
 /*MODAL*/
 
-let cerrar = document.querySelectorAll('.close')[0];
-let abrir = document.querySelectorAll('.button')[0];
-let modal = document.querySelectorAll('.modal')[0];
-let modalC = document.querySelectorAll('.modal-container')[0];
+let cerrar = document.querySelector('.close');
+let abrir = document.querySelector('.button');
+let modal = document.querySelector('.modal');
+let modalC = document.querySelector('.modal-container');
+
+
+
+
 
 
 abrir.addEventListener('click', function (e) {
@@ -109,4 +113,9 @@ window.addEventListener('click', function (e) {
         }, 850);
     }
 });
+
+
+
+
+
 

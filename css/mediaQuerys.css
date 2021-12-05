@@ -2644,7 +2644,7 @@
         width: 25px;
         height: 25px;
         background: #c44a4a;
-        color: #fff;
+        color: rgb(255, 255, 255);
         line-height: 25px;
         cursor: pointer;
         border-radius: 50%;
