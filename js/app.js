@@ -116,6 +116,14 @@ window.addEventListener('click', function (e) {
 
 
 
+const heart = document.getElementById('corazon');
+console.log(corazon);
+
+heart.addEventListener('click', function () {
+   
+    heart.style.color = 'red';
+});
+
 
 
 
