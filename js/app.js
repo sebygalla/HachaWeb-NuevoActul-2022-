@@ -10,10 +10,10 @@ window.onload = function () {
 /* MENU HAMBURGUESA*/
 
 
-const menuToggleEl = document.querySelector(".hamburger-menu");
+const menuToggleEl = document.querySelector(".toggle");
 
 menuToggleEl.addEventListener("click", () => {
-    menuToggleEl.classList.toggle("active");
+    menuToggleEl.classList.toggle("menu-on");
 });
 
 

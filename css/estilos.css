@@ -135,7 +135,7 @@ header .menu ul li a:hover {
 
 
 
-/*MENU HAMBURGUESA
+/*MENU HAMBURGUESA*/
 
 header .toggle {
 	text-decoration: none;
@@ -144,13 +144,13 @@ header .toggle {
 	border: none;
 	font-size: 1.2rem;
 	display: none;
-}*/
+}
 
-
+/*
 .hamburger-menu {
 	margin: auto;
-	width: 40px;
-	height: 40px;
+	width: 38px;
+	height: 38px;
 	cursor: pointer;
 	display: none;
 	flex-direction: column;
@@ -158,8 +158,8 @@ header .toggle {
 }
 
 .hamburger-menu__i {
-	width: 100%;
-	height: 5px;
+	width: 95%;
+	height: 3px;
 	display: block;
 	content: "";
 	background-color: #ffffff;
@@ -322,7 +322,7 @@ header .toggle {
 	}
 
 	100% {
-		transform: translateY(-12px) rotate(135deg);
+		transform: translateY(-8px) rotate(135deg);
 	}
 }
 
@@ -353,6 +353,7 @@ header .toggle {
 		transform: translateY(-12px) rotate(135deg);
 	}
 }
+*/
 
 
 
@@ -893,17 +894,18 @@ header .redes-sociales_menu a:hover {
 
 .close {
 	position: absolute;
-	top: 0;
-	right: 5px;
+	top: -30px;
+	right: -50px;
 	display: inline-block;
-	width: 25px;
-	height: 25px;
+	font-size: 20px;
+	width: 30px;
+	height:28px;
 	background: #c44a4a;
 	color: #fff;
 	line-height: 25px;
 	cursor: pointer;
 	border-radius: 50%;
-	margin: 15px 10px;
+
 
 }
 

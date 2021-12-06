@@ -104,6 +104,7 @@
 
     }
 
+    /*
     .close {
         position: absolute;
         top: 0;
@@ -119,6 +120,8 @@
         margin: 15px 10px;
 
     }
+
+    */
 
     .modal-textos {
         width: 100%;
@@ -328,6 +331,8 @@
 
     }
 
+    /*
+
     .close {
         position: absolute;
         top: 0;
@@ -343,6 +348,8 @@
         margin: 15px 10px;
 
     }
+
+    */
 
     .modal-textos {
         width: 100%;
@@ -652,6 +659,21 @@
 
 
 
+    /*MENU HAMBURGUESA*/
+
+    header .toggle {
+        text-decoration: none;
+        color: #E9ECF4;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        display: block;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+
+
+
 
 
 
@@ -745,12 +767,11 @@
     }
 
 
-    /*MENU HAMBURGUESA*/
+    /*MENU HAMBURGUESA
 
     .hamburger-menu {
-        width: 30px;
-        height: 30px;
-        font-size: 25px;
+        width: 28px;
+        height: 28px;
         display: block;
         margin-right: 20px;
         cursor: pointer;
@@ -762,6 +783,8 @@
     .hamburger-menu:not(:focus-visible) {
         outline: none;
     }
+
+    */
 
     /*REDES SOCIALES*/
 
@@ -794,8 +817,8 @@
 
     /*LOGO*/
     .logo {
-        width: 40px;
-        margin-left: 20px;
+        width: 35px;
+        margin-left: 25px;
         padding: 3px;
     }
 
@@ -952,6 +975,8 @@
 
     }
 
+    /*
+
     .close {
         position: absolute;
         top: 0;
@@ -967,6 +992,8 @@
         margin: 15px 10px;
 
     }
+
+    */
 
     .modal-textos {
         width: 100%;
@@ -1516,6 +1543,7 @@
 
     }
 
+    /*
     .close {
         position: absolute;
         top: 0;
@@ -1531,6 +1559,7 @@
         margin: 15px 10px;
 
     }
+    */
 
     .modal-textos {
         width: 100%;
@@ -1964,6 +1993,7 @@
 
     }
 
+    /*
     .close {
         position: absolute;
         top: 0;
@@ -1979,6 +2009,7 @@
         margin: 15px 10px;
 
     }
+    */
 
     .modal-textos {
         width: 100%;
@@ -2636,6 +2667,8 @@
 
     }
 
+    /*
+
     .close {
         position: absolute;
         top: 0;
@@ -2651,6 +2684,7 @@
         margin: 15px 10px;
 
     }
+    */
 
     .modal-textos {
         width: 100%;
@@ -3187,6 +3221,8 @@
 
     }
 
+    /*
+
     .close {
         position: absolute;
         top: 0;
@@ -3202,6 +3238,7 @@
         margin: 15px 10px;
 
     }
+    */
 
     .modal-textos {
         width: 100%;
