@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Irish+Grover&family=Poller+One&family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap');
 
-:root{
+:root {
 	--variable-color-claro: #80808048;
 	--variable-color-naranja: #f5c74f;
 	--variable-color-verde: #55ac4f;
@@ -458,7 +458,7 @@ header .redes-sociales_menu a:hover {
 	margin-right: auto;
 	max-width: 1200px;
 	font-family: 'Roboto', sans-serif;
-	
+
 
 
 }
@@ -467,7 +467,7 @@ header .redes-sociales_menu a:hover {
 	width: 250px;
 	margin: 10px;
 	transition: 300ms;
-	
+
 }
 
 .card:hover {
@@ -567,12 +567,6 @@ header .redes-sociales_menu a:hover {
 
 }
 
-/*
-.card .description input:hover {
-	background: #f80e2dd5;
-
-}
-*/
 
 
 /*MODAL*/
@@ -585,7 +579,7 @@ header .redes-sociales_menu a:hover {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 0.8);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -605,7 +599,7 @@ header .redes-sociales_menu a:hover {
 	transition: transform 1s;
 	transform: translateY(0%);
 	border-radius: 10px;
-	
+
 
 
 }
@@ -619,7 +613,7 @@ header .redes-sociales_menu a:hover {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	
+
 	position: relative;
 
 	margin: 10px;
@@ -629,14 +623,14 @@ header .redes-sociales_menu a:hover {
 
 }
 
-.modal-cardBg{
+.modal-cardBg {
 	width: 100%;
 	height: 40%;
 	margin-top: -30px;
 	margin-bottom: 40px;
 	background-size: cover;
-	
-	
+
+
 
 }
 
@@ -648,7 +642,7 @@ header .redes-sociales_menu a:hover {
 	border: 6px solid white;
 	position: absolute;
 	top: 40px;
-	
+
 }
 
 .modal-img {
@@ -674,7 +668,7 @@ header .redes-sociales_menu a:hover {
 	color: #000000;
 	text-align: center;
 	margin-top: -30px;
-	
+
 
 }
 
@@ -685,7 +679,7 @@ header .redes-sociales_menu a:hover {
 	display: inline-block;
 	font-size: 20px;
 	width: 30px;
-	height:28px;
+	height: 28px;
 
 	color: #ffff;
 	line-height: 25px;
@@ -1030,8 +1024,6 @@ section .contenedor-galeria {
 
 .contenedor-info {
 
-
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -1041,12 +1033,10 @@ section .contenedor-galeria {
 	height: auto;
 	margin: 40px auto;
 
-
-
-
 }
 
-.contenedor-imagen{
+
+.contenedor-imagen {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1054,10 +1044,10 @@ section .contenedor-galeria {
 	height: auto;
 	background-color: #0000001c;
 	border-radius: 10px;
-	
+
 }
 
-.contenedor-imagen a{
+.contenedor-imagen i {
 	color: #ffff;
 	font-size: 18px;
 	margin: 15px;
@@ -1087,12 +1077,12 @@ section .contenedor-galeria {
 
 }
 
-.contenedor-info1 h1{
+.contenedor-info1 h1 {
 	text-align: center;
 	padding: 25px;
 }
 
-.contenedor-info1 p{
+.contenedor-info1 p {
 	text-align: justify;
 	padding: 25px;
 }
@@ -1118,21 +1108,13 @@ section .contenedor-galeria {
 	height: 60px;
 	object-fit: cover;
 	border-radius: 50%;
-	margin: 20px 25px;
+	margin: 20px 15px;
 
 
 }
 
 
-.contenedor-img3 {
-	width: 60px;
-	height: 60px;
-	object-fit: cover;
-	border-radius: 50%;
-	margin: 20px 25px;
 
-
-}
 
 .contenedor-info2 {
 	width: 350px;
@@ -1153,12 +1135,12 @@ section .contenedor-galeria {
 
 }
 
-.contenedor-info2 h1{
+.contenedor-info2 h1 {
 	text-align: center;
 	padding: 25px;
 }
 
-.contenedor-info2 p{
+.contenedor-info2 p {
 	text-align: justify;
 	padding: 25px;
 }
@@ -1183,14 +1165,24 @@ section .contenedor-galeria {
 }
 
 
-.contenedor-info3 h1{
+.contenedor-info3 h1 {
 	text-align: center;
 	padding: 25px;
 }
 
-.contenedor-info3 p{
+.contenedor-info3 p {
 	text-align: justify;
 	padding: 25px;
+}
+
+.contenedor-img3 {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: 20px 15px;
+
+
 }
 
 
@@ -1198,7 +1190,7 @@ section .contenedor-galeria {
 
 /*hacha-contenedor*/
 
-.hacha-container{
+.hacha-container {
 	background: #fff;
 	min-height: 100vh;
 	display: flex;
@@ -1207,13 +1199,13 @@ section .contenedor-galeria {
 
 }
 
-.hacha-texto{
+.hacha-texto {
 	width: 100%;
 	color: transparent;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Anton', sans-serif;
-	font-size: 150px;	
+	font-size: 150px;
 	font-weight: bold;
 
 	background-image: url(../img/galeria\ de\ imagenes/5.jpg);

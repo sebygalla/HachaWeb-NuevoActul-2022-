@@ -116,14 +116,19 @@ window.addEventListener('click', function (e) {
 
 
 
-const heart = document.getElementById('corazon');
-console.log(corazon);
+//card con me gusta!!
+
+const heart = document.getElementById('heart');
+
+
 
 heart.addEventListener('click', function () {
+    if(heart.style.color === 'red'){
+        heart.style.color = 'white';
+    } else {
+        heart.style.color = 'red';
+    }
    
-    heart.style.color = 'red';
 });
-
-
 
 
