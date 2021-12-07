@@ -286,6 +286,7 @@ header .redes-sociales_menu a:hover {
 .hero-textos {
 	display: flex;
 	flex-direction: column;
+	
 	align-items: center;
 	justify-content: center;
 	height: auto;
@@ -309,6 +310,8 @@ header .redes-sociales_menu a:hover {
 /* BOTON reutilizable*/
 
 .action {
+
+	
 	font-size: 16px;
 	text-decoration: none;
 	border-radius: 18px;
@@ -327,14 +330,16 @@ header .redes-sociales_menu a:hover {
 	color: white;
 	text-decoration: none;
 
+
 }
 
 
 
 .action-red {
 	color: white;
-	background-color: #da251c;
+	background-color: var(--variable-color-botones);
 	padding: 12px 15px;
+	
 
 }
 
@@ -558,8 +563,8 @@ header .redes-sociales_menu a:hover {
 	border: none;
 	background: #C43535;
 	color: white;
-	font-size: 14px;
-	font-weight: 700;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
 	cursor: pointer;
 	border-radius: 18px;
 	transition: all 300ms;
@@ -629,6 +634,7 @@ header .redes-sociales_menu a:hover {
 	margin-top: -30px;
 	margin-bottom: 40px;
 	background-size: cover;
+	background-color: #C43535;
 
 
 
@@ -845,9 +851,9 @@ header .redes-sociales_menu a:hover {
 	padding: 10px;
 	margin: 20px;
 	border: none;
-	background: #ee0979;
+	background: var(--variable-color-botones);
+	font-family: 'Press Start 2P', cursive;
 	font-size: 12px;
-	font-weight: 600;
 	cursor: pointer;
 	border-radius: 18px;
 	transition: all 300ms;
