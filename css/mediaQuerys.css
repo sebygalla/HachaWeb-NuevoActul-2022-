@@ -1859,8 +1859,8 @@
 
 
     .hero-img {
-        width: 100%;
-        max-width: 900px;
+        width: 80%;
+        max-width: 800px;
         position: relative;
         top: 10px;
         left: 40px;
@@ -2733,8 +2733,8 @@
     }
 
     .hero-img {
-        width: 80%;
-        max-width: 400px;
+        width: 90%;
+        max-width: 800px;
         position: relative;
         top: 10px;
         left: 40px;
