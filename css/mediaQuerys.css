@@ -1859,11 +1859,9 @@
 
 
     .hero-img {
-        width: 80%;
-        max-width: 800px;
-        position: relative;
-        top: 10px;
-        left: 40px;
+        width: 300px;
+        max-width: 100%;
+      
         height: auto;
         overflow: hidden;
     }
@@ -2705,7 +2703,7 @@
     }
 
     .imagen img {
-        width: 100%;
+        max-width: 100%;
 
     }
 
@@ -2736,8 +2734,7 @@
         width: 100%;
         max-width: 800px;
         position: relative;
-        top: 10px;
-        left: 40px;
+      
         height: auto;
         overflow: hidden;
     }
