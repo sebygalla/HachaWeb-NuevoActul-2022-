@@ -272,6 +272,7 @@ header .redes-sociales_menu a:hover {
 	overflow: hidden;
 	/*filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);*/
 	background-size: cover;
+	border-radius: 50%;
 
 	
 }
@@ -289,6 +290,8 @@ header .redes-sociales_menu a:hover {
 .hero-textos {
 	display: flex;
 	flex-direction: column;
+	width: 50%;
+	margin-top: 50px;
 	height: calc(100vh - 55px);
 	align-items: center;
 	justify-content: center;

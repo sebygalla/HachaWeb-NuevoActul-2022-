@@ -1,32 +1,9 @@
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 480px) {
 
 
 
 
-    /*IMAGEN PRINCIPAL*/
 
-    .hero-img {
-        width: 400px;
-        position: relative;
-        top: 80px;
-
-
-    }
-
-    .hero-textos {
-        position: relative;
-        top: -250px;
-
-
-
-
-    }
-
-    .logo {
-        width: 25px;
-        margin-left: 20px;
-
-    }
 
 
 
@@ -158,6 +135,52 @@
     }
 
 
+
+    /*IMAGEN PRINCIPAL*/
+
+    .hero-img {
+        width: 300px;
+        position: relative;
+        top: 65px;
+        border-radius: 100%;
+
+
+    }
+
+
+    .logo {
+        width: 25px;
+        margin-left: 20px;
+
+    }
+
+
+    /*TEXTO PORTADA PRINCIPAL*/
+
+    .hero-textos {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: -175px;
+        height: calc(100vh - 55px);
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10px;
+        z-index: 9;
+
+    }
+
+    .titulo-textos {
+        text-shadow: black 0px 0px 6px;
+    }
+
+
+
+
+
+
     /*DIVISION IMAGEN*/
 
     .division-nosotros-foto {
@@ -165,6 +188,10 @@
         top: 70px;
         right: 550px;
 
+    }
+
+    .division-titulo h2{
+        font-size: 30px;
     }
 
 
