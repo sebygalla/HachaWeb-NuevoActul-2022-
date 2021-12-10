@@ -1,12 +1,14 @@
 @media screen and (max-width: 480px) {
 
-
-
-
-
-
-
-
+    .hero-main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: calc(100vh - 55px);
+        position: relative;
+    }
 
     /*MENU HAMBURGUESA*/
 
@@ -174,7 +176,61 @@
 
     .titulo-textos {
         text-shadow: black 0px 0px 6px;
+        font-size: .8rem;
+
     }
+
+
+
+    /* BOTON reutilizable*/
+
+    .action {
+
+        width: 100%;
+        font-size: 10px;
+        text-decoration: none;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        margin: 15px;
+        font-family: 'Press Start 2P', cursive;
+
+
+
+    }
+
+
+    .action a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Press Start 2P', cursive;
+
+
+    }
+
+
+
+    .action-red {
+        color: white;
+        background-color: #da251c;
+        padding: 12px 15px;
+
+
+    }
+
+
+    .action-red:hover {
+        background-color: #C43535;
+    }
+
+    .action-red:active {
+        background-color: #A62828;
+    }
+
+
+
 
 
 
@@ -183,16 +239,92 @@
 
     /*DIVISION IMAGEN*/
 
-    .division-nosotros-foto {
+    .division {
+        height: 150px;
+        margin-top: 50px;
+    }
+
+    .division-nosotros-foto img {
+        width: 150px;
         position: absolute;
-        top: 70px;
+        top: 20px;
         right: 550px;
 
     }
 
-    .division-titulo h2{
+    .division-titulo h2 {
         font-size: 30px;
     }
+
+
+
+    /*CONTENIDO NOSOTROS*/
+
+    #nosotros-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .contenido-nosotros {
+        background: #C43535;
+        width: 98%;
+        height: 100vh;
+        display: grid;
+        border-radius: 8px;
+        margin: 10px;
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+
+    .contenido-nosotros-texto {
+        margin-top: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenido-nosotros-texto h2 {
+        font-size: 50px;
+        margin-top: 50px;
+
+    }
+
+    .contenido-nosotros-texto p {
+        font-size: 16px;
+        text-align: justify;
+        margin: 25px;
+        margin-top: -120px;
+        
+        
+
+    }
+
+
+
+    
+    /*Cardss (PERSONAJES DE DSON SEB Y MATT)*/
+
+
+    .container-cards{
+        margin-top: 60px;
+    }
+
+
+
+    .container-cards .card{
+        margin-top: -70px;
+    }
+
+
+
 
 
 
@@ -365,56 +497,6 @@
 
 
     }
-
-
-    /* BOTON reutilizable*/
-
-    .action {
-
-
-        font-size: 10px;
-        text-decoration: none;
-        border-radius: 18px;
-        display: flex;
-        align-items: center;
-        padding: 5px 10px;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-        margin: 20px;
-        font-family: 'Press Start 2P', cursive;
-
-
-
-    }
-
-
-    .action a {
-        color: white;
-        text-decoration: none;
-        font-family: 'Press Start 2P', cursive;
-
-
-    }
-
-
-
-    .action-red {
-        color: white;
-        background-color: #da251c;
-        padding: 12px 15px;
-
-
-    }
-
-
-    .action-red:hover {
-        background-color: #C43535;
-    }
-
-    .action-red:active {
-        background-color: #A62828;
-    }
-
-
 
 
 
