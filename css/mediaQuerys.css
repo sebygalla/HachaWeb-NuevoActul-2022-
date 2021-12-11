@@ -140,14 +140,7 @@
 
     /*IMAGEN PRINCIPAL*/
 
-    .hero-img {
-        width: 300px;
-        position: relative;
-        top: 65px;
-        border-radius: 100%;
-
-
-    }
+  
 
 
     .logo {
@@ -157,37 +150,27 @@
     }
 
 
-    /*TEXTO PORTADA PRINCIPAL*/
+    /*waves*/
 
-    .hero-textos {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        margin-top: -175px;
-        height: calc(100vh - 55px);
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-family: 'Press Start 2P', cursive;
-        font-size: 10px;
-        z-index: 9;
-
+    .waves {
+        position: relative;
+        top: 100px;
+        z-index: -1;
     }
 
-    .titulo-textos {
-        text-shadow: black 0px 0px 6px;
-        font-size: .8rem;
 
+
+    .hero-main{
+        height: 200px;
     }
-
 
 
     /* BOTON reutilizable*/
 
     .action {
 
-        width: 100%;
-        font-size: 10px;
+        
+        font-size: 8px;
         text-decoration: none;
         border-radius: 18px;
         display: flex;
@@ -241,7 +224,7 @@
 
     .division {
         height: 150px;
-        margin-top: 50px;
+        margin-top: 95px;
     }
 
     .division-nosotros-foto img {
@@ -253,7 +236,8 @@
     }
 
     .division-titulo h2 {
-        font-size: 30px;
+        font-size: 15px;
+       
     }
 
 
