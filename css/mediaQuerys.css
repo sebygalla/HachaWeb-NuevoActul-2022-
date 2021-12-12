@@ -186,7 +186,7 @@
     .action {
 
 
-        font-size: 8px;
+        font-size: 12px;
         text-decoration: none;
         border-radius: 18px;
         display: flex;
@@ -256,7 +256,7 @@
     }
 
     .division-titulo h2 {
-        font-size: 18px;
+        font-size: 24px;
      
 
     }
@@ -266,7 +266,7 @@
 
     .hero-social__division a{
         color: #fff;
-        font-size: 20px;
+        font-size: 22px;
         margin: 10px;
         
     }
