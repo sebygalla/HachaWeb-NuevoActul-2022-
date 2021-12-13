@@ -244,7 +244,7 @@ header .redes-sociales_menu a:hover {
 
 .hero-img {
 
-	width: 650px;
+	width: 400px;
 	overflow: hidden;
 	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
 	
@@ -346,6 +346,15 @@ header .redes-sociales_menu a:hover {
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
 
+
+}
+
+
+
+/* REDES SOCIALES DEBAJO DE IMAGEN PRINCIPAL*/
+
+.hero-social__division a {
+	display: none;
 
 }
 

@@ -1,3 +1,68 @@
+@media screen and (max-width: 768px) {
+
+    .hero-main {
+        height: calc(40vh - 55px);
+
+
+    }
+
+    /*waves*/
+
+    .waves {
+        position: relative;
+        top: 50px;
+        z-index: -1;
+    }
+
+    /*DIVISION IMAGEN*/
+
+    .division {
+        height: 100px;
+        margin-top: 45px;
+    }
+
+
+
+
+    .division-titulo h2 {
+        font-size: 16px;
+    }
+
+
+
+
+    .hero-img {
+        width: 350px;
+    }
+
+    .redes-sociales {
+        display: none;
+    }
+
+
+    header .navbar {
+        background: black;
+        width: 100vw;
+        height: 55px;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+  
+
+
+
+
+}
+
+
+
+
+
 @media screen and (max-width: 480px) {
 
     .hero-main {
@@ -6,7 +71,7 @@
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
-        height: calc(100vh - 55px);
+        height: calc(50vh - 55px);
         position: relative;
     }
 
@@ -141,16 +206,16 @@
 
     .hero-img {
 
-       width: 1500px;
+        width: 350px;
         overflow: hidden;
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
-        margin-top: 140px;
+        margin-top: 25px;
 
 
 
     }
 
-   
+
 
 
 
@@ -175,10 +240,6 @@
     }
 
 
-
-    .hero-main {
-        height: 300px;
-    }
 
 
     /* BOTON reutilizable*/
@@ -239,36 +300,30 @@
     /*DIVISION IMAGEN*/
 
     .division {
-        height: 450px;
+        height: 300px;
         margin-top: 45px;
     }
 
-    .division-nosotros-foto img {
-        width: 150px;
-        position: absolute;
-        top: 20px;
-        right: 550px;
 
-    }
-
-    .division-titulo{
-        margin-bottom: 100px;
+    .division-titulo {
+        margin-bottom: 0px;
     }
 
     .division-titulo h2 {
-        font-size: 24px;
-     
-
+        font-size: 18px;
     }
 
 
 
+    /* REDES SOCIALES DEBAJO DE IMAGEN PRINCIPAL*/
 
-    .hero-social__division a{
+    .hero-social__division a {
+        display: inline-block;
         color: #fff;
-        font-size: 22px;
-        margin: 10px;
-        
+        font-size: 30px;
+        margin-top: 50px;
+        padding: 10px;
+
     }
 
 
