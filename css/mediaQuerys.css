@@ -1,58 +1,42 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+
+    /*REDES SOCIALES*/
+
+    header .redes-sociales {
+        display: none;
+
+    }
 
     .hero-main {
-        height: calc(40vh - 55px);
-
-
-    }
-
-    /*waves*/
-
-    .waves {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: calc(100vh - 55px);
         position: relative;
-        top: 50px;
-        z-index: -1;
     }
+
+
 
     /*DIVISION IMAGEN*/
 
-    .division {
-        height: 100px;
-        margin-top: 45px;
+
+    .hero-titulo {
+
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+
+
+
     }
 
-
-
-
-    .division-titulo h2 {
+    .hero-titulo h2 {
         font-size: 16px;
     }
 
 
 
-
-    .hero-img {
-        width: 350px;
-    }
-
-    .redes-sociales {
-        display: none;
-    }
-
-
-    header .navbar {
-        background: black;
-        width: 100vw;
-        height: 55px;
-        position: fixed;
-        z-index: 999;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-  
 
 
 
@@ -63,17 +47,122 @@
 
 
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 768px) {
+
+    /*REDES SOCIALES*/
+
+    header .redes-sociales {
+        display: none;
+
+    }
+
+
+
+    /*DIVISION IMAGEN*/
+
+
+    .hero-titulo {
+
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+
+
+
+    }
+
+    .hero-titulo h2 {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    /*REDES SOCIALES*/
+
+    header .redes-sociales {
+        display: none;
+
+    }
+
+
+    /*IMAGEN DE LA PORTADA PRINCIPAL*/
+
+    .hero-img {
+
+        width: 400px;
+        overflow: hidden;
+        filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
+
+
+    }
+
 
     .hero-main {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: column;
+
         flex-wrap: wrap;
         width: 100%;
-        height: calc(50vh - 55px);
+        height: calc(100vh - 55px);
         position: relative;
     }
+
+
+
+
+
+    /*DIVISION IMAGEN*/
+
+
+    .hero-titulo {
+
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        position: absolute;
+        bottom: 20px;
+
+
+    }
+
+    .hero-titulo h2 {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
 
     /*MENU HAMBURGUESA*/
 
@@ -206,14 +295,51 @@
 
     .hero-img {
 
-        width: 350px;
+        width: 400px;
         overflow: hidden;
         filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
-        margin-top: 25px;
 
 
 
     }
+
+
+    .hero-main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+        width: 100%;
+        height: calc(100vh - 55px);
+        position: relative;
+    }
+
+
+
+
+
+    /*DIVISION IMAGEN*/
+
+
+    .hero-titulo {
+
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        position: absolute;
+      
+
+
+    }
+
+    .hero-titulo h2 {
+        font-size: 16px;
+    }
+
+
+
 
 
 
@@ -235,7 +361,7 @@
 
     .waves {
         position: relative;
-        top: 52px;
+        top: 40px;
         z-index: -1;
     }
 
@@ -295,36 +421,6 @@
 
 
 
-
-
-    /*DIVISION IMAGEN*/
-
-    .division {
-        height: 300px;
-        margin-top: 45px;
-    }
-
-
-    .division-titulo {
-        margin-bottom: 0px;
-    }
-
-    .division-titulo h2 {
-        font-size: 18px;
-    }
-
-
-
-    /* REDES SOCIALES DEBAJO DE IMAGEN PRINCIPAL*/
-
-    .hero-social__division a {
-        display: inline-block;
-        color: #fff;
-        font-size: 30px;
-        margin-top: 50px;
-        padding: 10px;
-
-    }
 
 
 
@@ -605,13 +701,23 @@
 
     /*DIVISION GALERIA*/
 
+    section .contenedor-galeria {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+        border-radius: 6px;
+        padding: 10px;
+
+    }
+
     .galeria {
-        width: 98%;
+        width: 100%;
         height: auto;
         display: grid;
-        grid-template-columns: 1fr;
-        column-gap: .8rem;
-        row-gap: .5rem;
+        grid-template-columns: 100%;
+
     }
 
 
