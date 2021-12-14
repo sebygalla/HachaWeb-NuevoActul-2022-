@@ -233,10 +233,12 @@ header .redes-sociales_menu a:hover {
 	flex-wrap: wrap;
 	width: 100%;
 	height: 100vh;
-	background: url(../img/blurry-gradient-haikei.svg);
+	background: url(../img/circle-scatter-haikei.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: scroll;
+	background-attachment: fixed;
+
+
 
 }
 
@@ -244,9 +246,10 @@ header .redes-sociales_menu a:hover {
 /*IMAGEN DE LA PORTADA PRINCIPAL*/
 
 .hero-img {
-	width: 400px;
+	width: 500px;
 	overflow: hidden;
 	filter: drop-shadow(10px 5px 4px rgba(12, 12, 12, 0.323))contrast(110%);
+
 	
 }
 
@@ -316,7 +319,7 @@ header .redes-sociales_menu a:hover {
 
 
 .hero-titulo h2 {
-	font-size: 25px;
+	font-size: 20px;
 	color: black;
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;

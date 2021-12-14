@@ -18,6 +18,7 @@
 
 
 
+
     /*DIVISION IMAGEN*/
 
 
@@ -32,7 +33,7 @@
     }
 
     .hero-titulo h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
 
@@ -73,7 +74,7 @@
     }
 
     .hero-titulo h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
 
@@ -133,13 +134,13 @@
         margin: 0 auto;
         padding: 10px;
         position: absolute;
-        bottom: 20px;
+        bottom: 140px;
 
 
     }
 
     .hero-titulo h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
 
@@ -309,7 +310,6 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-
         flex-wrap: wrap;
         width: 100%;
         height: calc(100vh - 55px);
@@ -329,13 +329,15 @@
         margin: 0 auto;
         padding: 10px;
         position: absolute;
+        bottom: 140px;
+     
       
 
 
     }
 
     .hero-titulo h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
 
@@ -357,14 +359,7 @@
     }
 
 
-    /*waves*/
-
-    .waves {
-        position: relative;
-        top: 40px;
-        z-index: -1;
-    }
-
+   
 
 
 
