@@ -33,7 +33,9 @@
     }
 
     .hero-titulo h2 {
-        font-size: 20px;
+        font-size: 30px;
+        color: #fff;
+       
     }
 
 
@@ -43,6 +45,31 @@
 
 
 }
+
+
+
+
+@media screen and (max-width: 992px) {
+
+   
+
+
+
+
+    .hero-titulo h2 {
+        font-size: 30px;
+        color: #000;
+       
+    }
+
+
+
+
+
+
+
+}
+
 
 
 
@@ -74,7 +101,8 @@
     }
 
     .hero-titulo h2 {
-        font-size: 20px;
+        font-size: 30px;
+        color: #fff;
     }
 
 
